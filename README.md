@@ -4,7 +4,7 @@
 
 From Process Graphs to Multi-Sheet CAD: Generation and Structural Assessment of Process Flow Diagrams.
 
-Ziheng Fan · Ziyang Fan · Xiaohuai Cao · Qibing Ren  
+Ziheng Fan · Ziyang Fan · Xiaohuai Cao · [Qibing Ren](https://renqibing.github.io/)  
 School of Artificial Intelligence, Shanghai Jiao Tong University
 
 ## What is included
