@@ -90,6 +90,11 @@
   for(const evt of ['pointerup','pointercancel','lostpointercapture']) svg.addEventListener(evt,()=>{pointer=null;svg.classList.remove('dragging');});
   svg.addEventListener('keydown',e=>{if(e.key==='+')zoom(.72);else if(e.key==='-')zoom(1/.72);else if(e.key==='0')fit();else if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();view.x+=(e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0)*view.w*.1;view.y+=(e.key==='ArrowDown'?1:e.key==='ArrowUp'?-1:0)*view.h*.1;updateView();}});
   document.querySelectorAll('.inspect-challenge').forEach(link=>link.addEventListener('click',()=>{chooseCase(link.dataset.case);chooseSheet(link.dataset.sheet);}));
+  const demo = $('workflow-video');
+  document.querySelectorAll('[data-demo-time]').forEach(button => button.addEventListener('click', () => {
+    demo.currentTime = Number(button.dataset.demoTime);
+    demo.play().catch(() => { demo.focus(); });
+  }));
   let initialLang = new URLSearchParams(location.search).get('lang');
   if(!initialLang) {try {initialLang=localStorage.getItem('pfd-language');}catch (_) {}}
   setLanguage(initialLang==='zh'?'zh':'en');

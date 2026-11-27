@@ -10,6 +10,7 @@ School of Artificial Intelligence, Shanghai Jiao Tong University
 ## What is included
 
 - Bilingual project homepage with language switching and interactive CAD navigation.
+- A 90-second, 1080p bilingual workflow video with chapter navigation, transcript and downloadable case evidence.
 - Three source-grounded challenge figures, each in English and Chinese.
 - Five complete supplied review cases: 111 individual CAD sheets plus five package masters, XML inputs, DWG / DXF / PDF files, previews, metadata, and an offline review application.
 - Nine-configuration benchmark summary on 50 tasks per configuration (450 scored artifacts). The frozen evaluation corpus and newer review gallery are versioned separately.
@@ -45,3 +46,9 @@ Required HARD_A07 source citation: James Scott and Thomas A. Adams II, “Biomas
 
 本仓库公开中英文项目网页、难点图、全部五案例审阅资料及结果汇总。原始案例文件保持不变，原许可和来源记录随包保留。论文 PDF 暂不公开。
 首页可切换中文与英文；完整离线审阅器目前为中文。五案例展示版本与冻结评分数据版本不同，网页不将历史分数直接赋予某一展示图纸，也不把评分解释为工程验收。
+
+## Workflow demo
+
+[Watch the demo](https://zihengfan07.github.io/pfd-agent-bench/#demo). The video replays saved artifacts and illustrates the method stages; it is not a live execution recording. It follows the historical 33-sheet HARD_A06 package, whose XML and master DXF hashes match the frozen r010 receipt p0119. Four case scores are 98.99 / 88.28 / 72.24 / 98.27. The source was a saved-evidence recovery marked `draft_with_issues`. The newer 34-sheet review gallery remains a separate artifact version.
+
+The video has burned-in English and Chinese captions and no audio. Optional WebVTT subtitles, a transcript, a minimal case evidence archive and file hashes are under `assets/demo/`. Reproduction instructions are in `assets/demo/README.txt`; the renderer is `tools/build_demo.py`. No model API call is made to render this presentation.

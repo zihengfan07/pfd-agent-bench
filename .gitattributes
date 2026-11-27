@@ -5,3 +5,6 @@ review/** -text
 *.dwg binary
 *.dxf binary
 *.zip binary
+
+*.mp4 -text
+*.jpg -text

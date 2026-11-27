@@ -1,0 +1,39 @@
+PFD-Agent / PFD-Bench — bilingual demo transcript
+
+Saved-artifact walkthrough, not a live screen recording. Stage diagrams summarize the method.
+The supplied A06 run was a saved-evidence recovery with source status draft_with_issues; this video makes no claim of fresh end-to-end execution or engineering approval.
+
+00–08s | From process data to assessed CAD / 从工艺数据到可评测 CAD
+One complex process. A connected path from structured input to independent assessment.
+以一个复杂工艺案例，展示结构化输入、图纸生成与独立评测的完整路径。
+
+08–20s | 01  Read the process / 01  读取工艺数据
+The XML specifies equipment, ports and directed streams. It supplies no saved drawing layout.
+XML 提供设备、端口与有向物流关系，不采用已有图纸布局。
+
+20–32s | 02  Organize the generation / 02  组织生成过程
+Functional organization, page assignment, placement and routing connect intent to geometry.
+通过功能组织、分页、设备放置与布线，把工艺关系转化为图纸几何。
+
+32–44s | 03  Deliver editable drawings / 03  输出可编辑图纸
+The saved A06 package contains 33 process sheets, with native DWG, DXF and PDF artifacts.
+该版本 A06 保存了 33 张流程图纸，并提供原生 DWG、DXF 和 PDF 文件。
+
+44–56s | Across sheets, the process continues / 跨越图纸，流程保持连续
+Stream S-120 links PFD-104 to PFD-114. Both terminal labels are visible in the original PDFs.
+物流 S-120 从 PFD-104 指向 PFD-114；两端标记均来自原始 PDF。
+
+56–69s | 04  Read the delivered CAD independently / 04  独立读取交付 CAD
+Bench freezes the CAD-derived candidate graph before parsing the task specification.
+Bench 先独立读取 CAD 并冻结候选图，再解析任务规范进行结构匹配。
+
+69–83s | 05  Measure four dimensions / 05  四维评价
+These are this A06 artifact’s recorded scores, on a 0–100 scale, under frozen reader r010.
+这里展示该 A06 图纸在冻结读取器 r010 下的实际记录分数，范围为 0–100。
+
+83–90s | Explore the evidence / 探索图纸与评分依据
+Inspect the drawings, follow connections and compare the benchmark results on the project site.
+在项目网页中浏览图纸、追踪连接，并查看 Bench 的对比结果。
+
+This historical demonstration has 33 process sheets. The separately versioned online review gallery has 34 A06 sheets; its files are not assigned these scores.
+本演示历史版本含 33 张流程图纸；在线审阅图库的 A06 为另一个 34 页版本，未将本演示评分移用于该版本。

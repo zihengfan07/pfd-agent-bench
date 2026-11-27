@@ -1,0 +1,77 @@
+{
+  "schema": "pfd-demo-evidence.v1",
+  "case": "HARD_A06",
+  "mode": "saved-artifact walkthrough",
+  "duration_seconds": 90,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": false,
+  "selection": "Large process with all four recorded dimensions and original native PDF exports; not selected by highest score.",
+  "source_package": "PFD_50题_XML与CAD_20261104结果_20261105整理.zip",
+  "generation_source_run_id": "agent_run_20261104_151551_577552",
+  "recovery_run_id": "research_recovery_20261104_183404_069994",
+  "source_status": "draft_with_issues",
+  "source_fresh_fullrun": false,
+  "source_execution_complete": false,
+  "equipment_mapping_nodes": 445,
+  "source_streams": 656,
+  "process_sheets": 33,
+  "candidate_sha256": "6f58409cb64e4a1369e45bcd4089151d110b32deaf4f9e8586b7697a042274dc",
+  "xml_sha256": "3336d9df7df72fe3911f5fe84fe94c47599cd3a1bf8f360e3627769249d29cab",
+  "scores": {
+    "equipment_extraction_score": 98.987627,
+    "symbol_score": 88.27613,
+    "topology_score": 72.24339,
+    "layout_score": 98.269455
+  },
+  "score_scale": [
+    0,
+    100
+  ],
+  "scores_scope": {
+    "inventory": "type multiset F1",
+    "symbol": "mapped symbol geometry",
+    "topology": "matched relation scope",
+    "layout": "local geometry"
+  },
+  "receipt_id": "p0119",
+  "evaluation_time": "2026-11-25T01:10:08.752102+08:00",
+  "reader": "bench-reader-runtime-20261124-r010",
+  "candidate_reading_freeze": {
+    "candidate_body_overlap_sha256": "aa2dd61d94b75a0f26e5262b71d3c70122fd8c42685229f847c374af890de99c",
+    "candidate_graph_sha256": "6a9f728f52bcf1aff598952395787e9dd75c3047a74e932228efaab13c43f886",
+    "candidate_source_sha256": "6f58409cb64e4a1369e45bcd4089151d110b32deaf4f9e8586b7697a042274dc",
+    "evaluator_protocol_id": "bench-unified-20261115-engineering-v1",
+    "information_condition": "candidate_DXF_vector_control",
+    "junction_options_selected_before_task": false,
+    "junction_options_sha256": "f46890d00287c1a8a786c25208972131312e21511b5452041a422bd195a7fba4",
+    "physical_graph_sha256": "81fc30af2090dab225b3df5c060ce5a5e1a092462ad46d0b5f8c28396504d5eb",
+    "runtime_identity": {
+      "comparison_requires_full_source_hashes": true,
+      "measurement_mode": "engineering",
+      "measurement_protocol_id": "bench-unified-20261115-engineering-v1",
+      "reader_revision": "bench-reader-20261124-exact-collinear-arrow-chains-v4",
+      "release": "bench-reader-runtime-20261124-r010",
+      "runtime_version_sha256": "f69333791e562244c2a09a6ebb961618ec2be58211d43ee9032c085ec21bca49",
+      "schema_version": "pfd-bench-active-runtime-identity-v1"
+    },
+    "schema_version": "candidate-reading-freeze-v1",
+    "task_graph_parsed_before_freeze": false,
+    "task_working_copy_present_at_freeze": false
+  },
+  "source_attribution": "https://www.nlr.gov/extranet/biorefinery/aspen-models",
+  "license_note": "Case source: GNU General Public License; source page does not specify version. Retain source attribution. Original artifacts remain unchanged.",
+  "rendering": "Original supplied PDF exports rasterized by PyMuPDF; no CAD entity or text edits. Camera crop, zoom and original-pixel scaling only.",
+  "figure_scope": "Stage diagrams are method schematics. Source-derived identifiers are generation-side evidence, not Bench inputs.",
+  "gallery_version_note": "This 33-sheet historical scored package differs from the 34-sheet current review gallery.",
+  "source_files": {
+    "process.xml": "3336d9df7df72fe3911f5fe84fe94c47599cd3a1bf8f360e3627769249d29cab",
+    "DXF/PFD_PACKAGE_MASTER.dxf": "6f58409cb64e4a1369e45bcd4089151d110b32deaf4f9e8586b7697a042274dc",
+    "identifier_mapping.json": "c06220681cf9d034aa89833f56a9984925772ed6066a9c6c0cbe7c35bf58d7b1",
+    "PDF/PFD-104.pdf": "7e8e81b09d41b1c0b4f4f0d0affa6cb8f8e128f5f1b8938f050f36a6f35de2b2",
+    "PDF/PFD-114.pdf": "cadc558dbdb812505bd01c8b136d4893d5bc92be424348732a9b6f9dd3c26453"
+  }
+}
