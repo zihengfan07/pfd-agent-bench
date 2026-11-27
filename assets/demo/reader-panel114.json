@@ -1,0 +1,342 @@
+{
+  "source_graph_sha256": "6a9f728f52bcf1aff598952395787e9dd75c3047a74e932228efaab13c43f886",
+  "panel": "114",
+  "nodes": [
+    {
+      "candidate_id": "candidate_node_1c4ca5be5503e36b47fa8d0a265da7ef8de6391cadd3f1999e7fb5054ff5260f",
+      "bbox": [
+        11932.367555,
+        -1072.599628,
+        11997.367555,
+        -1047.599628
+      ],
+      "equipment_type": "mixer"
+    },
+    {
+      "candidate_id": "candidate_node_27ca055fb599500cfe3fd61c392b6809cd86c4dac1b8e2a2830c1610e4556ff2",
+      "bbox": [
+        11925.467555,
+        -985.067378,
+        11990.467555,
+        -960.067378
+      ],
+      "equipment_type": "mixer"
+    },
+    {
+      "candidate_id": "candidate_node_27ed1029d43ef892963e94deef73c9cfdc2da76cd6befc4df5c4b616d24247f1",
+      "bbox": [
+        12149.163945,
+        -1280.037396,
+        12198.923945,
+        -1142.03196
+      ],
+      "equipment_type": "reactor"
+    },
+    {
+      "candidate_id": "candidate_node_2ba32046761db32e2da04dbab9cb097cff8db1690ddeeafc54af46664923cb91",
+      "bbox": [
+        11939.078805,
+        -1379.549375,
+        11957.354805,
+        -1337.286125
+      ],
+      "equipment_type": "separator"
+    },
+    {
+      "candidate_id": "candidate_node_320117473c93cc78cc3cb5821f092b4b6e858a226fef54c5a048f9884e6557f4",
+      "bbox": [
+        12138.338906,
+        -985.067378,
+        12203.338906,
+        -960.067378
+      ],
+      "equipment_type": "mixer"
+    },
+    {
+      "candidate_id": "candidate_node_4ded8c7270cedbf8a8a725c6edc409671163166087e4ee5d59c5ce1a22b11604",
+      "bbox": [
+        12339.89533,
+        -1231.534678,
+        12385.384062,
+        -1190.534678
+      ],
+      "equipment_type": "heat_exchanger"
+    },
+    {
+      "candidate_id": "candidate_node_559e63e98373443317c7f29e2b7ce749a451d9455e3994171c9daf48174d1334",
+      "bbox": [
+        12051.815231,
+        -1081.231253,
+        12070.091231,
+        -1038.968003
+      ],
+      "equipment_type": "separator"
+    },
+    {
+      "candidate_id": "candidate_node_58b544018ccdd7141c4adb28dd67504d556f2ca74b9eaf70fe5a68d0aa292644",
+      "bbox": [
+        12035.115873,
+        -1223.534678,
+        12100.115873,
+        -1198.534678
+      ],
+      "equipment_type": "mixer"
+    },
+    {
+      "candidate_id": "candidate_node_7a39c172abe523781792bb47527a100de7e0c76910b5b0fbdf3983b825bd8b55",
+      "bbox": [
+        11933.679136,
+        -1231.534678,
+        11979.167867,
+        -1190.534678
+      ],
+      "equipment_type": "heat_exchanger"
+    },
+    {
+      "candidate_id": "candidate_node_941ab03c7f9fc313d57f5e24797688a73ab582c517796803cc88720f953b0aab",
+      "bbox": [
+        12267.17167,
+        -1232.166303,
+        12285.44767,
+        -1189.903053
+      ],
+      "equipment_type": "separator"
+    }
+  ],
+  "edges": [
+    {
+      "source": "candidate_node_2ba32046761db32e2da04dbab9cb097cff8db1690ddeeafc54af46664923cb91",
+      "target": "candidate_node_58b544018ccdd7141c4adb28dd67504d556f2ca74b9eaf70fe5a68d0aa292644",
+      "path_points": [
+        [
+          11948.217,
+          -1379.55
+        ],
+        [
+          11948.217,
+          -1388.55
+        ],
+        [
+          11897.079,
+          -1388.55
+        ],
+        [
+          11897.079,
+          -1185.535
+        ],
+        [
+          12043.574,
+          -1185.535
+        ],
+        [
+          12043.574,
+          -1199.535
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_58b544018ccdd7141c4adb28dd67504d556f2ca74b9eaf70fe5a68d0aa292644",
+      "target": "candidate_node_941ab03c7f9fc313d57f5e24797688a73ab582c517796803cc88720f953b0aab",
+      "path_points": [
+        [
+          12035.116,
+          -1211.035
+        ],
+        [
+          12026.116,
+          -1211.035
+        ],
+        [
+          12026.116,
+          -1305.601
+        ],
+        [
+          12276.31,
+          -1305.601
+        ],
+        [
+          12276.31,
+          -1232.167
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_27ca055fb599500cfe3fd61c392b6809cd86c4dac1b8e2a2830c1610e4556ff2",
+      "target": "candidate_node_320117473c93cc78cc3cb5821f092b4b6e858a226fef54c5a048f9884e6557f4",
+      "path_points": [
+        [
+          11933.926,
+          -961.067
+        ],
+        [
+          11933.926,
+          -941.067
+        ],
+        [
+          12217.339,
+          -941.067
+        ],
+        [
+          12217.339,
+          -972.567
+        ],
+        [
+          12203.339,
+          -972.567
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_2ba32046761db32e2da04dbab9cb097cff8db1690ddeeafc54af46664923cb91",
+      "target": "candidate_node_941ab03c7f9fc313d57f5e24797688a73ab582c517796803cc88720f953b0aab",
+      "path_points": [
+        [
+          11948.217,
+          -1337.285
+        ],
+        [
+          11948.217,
+          -1296.596
+        ],
+        [
+          12258.172,
+          -1296.596
+        ],
+        [
+          12258.172,
+          -1207.906
+        ],
+        [
+          12267.171,
+          -1207.906
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_58b544018ccdd7141c4adb28dd67504d556f2ca74b9eaf70fe5a68d0aa292644",
+      "target": "candidate_node_27ed1029d43ef892963e94deef73c9cfdc2da76cd6befc4df5c4b616d24247f1",
+      "path_points": [
+        [
+          12100.116,
+          -1211.035
+        ],
+        [
+          12133.648,
+          -1211.035
+        ],
+        [
+          12133.648,
+          -1133.032
+        ],
+        [
+          12167.179,
+          -1133.032
+        ],
+        [
+          12167.179,
+          -1142.032
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_7a39c172abe523781792bb47527a100de7e0c76910b5b0fbdf3983b825bd8b55",
+      "target": "candidate_node_58b544018ccdd7141c4adb28dd67504d556f2ca74b9eaf70fe5a68d0aa292644",
+      "path_points": [
+        [
+          11979.168,
+          -1211.035
+        ],
+        [
+          11988.168,
+          -1211.035
+        ],
+        [
+          11988.168,
+          -1232.535
+        ],
+        [
+          12043.574,
+          -1232.535
+        ],
+        [
+          12043.574,
+          -1222.535
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_941ab03c7f9fc313d57f5e24797688a73ab582c517796803cc88720f953b0aab",
+      "target": "candidate_node_4ded8c7270cedbf8a8a725c6edc409671163166087e4ee5d59c5ce1a22b11604",
+      "path_points": [
+        [
+          12276.31,
+          -1189.902
+        ],
+        [
+          12276.31,
+          -1181.902
+        ],
+        [
+          12331.895,
+          -1181.902
+        ],
+        [
+          12331.895,
+          -1211.035
+        ],
+        [
+          12339.895,
+          -1211.035
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_559e63e98373443317c7f29e2b7ce749a451d9455e3994171c9daf48174d1334",
+      "target": "candidate_node_320117473c93cc78cc3cb5821f092b4b6e858a226fef54c5a048f9884e6557f4",
+      "path_points": [
+        [
+          12060.953,
+          -1038.967
+        ],
+        [
+          12060.953,
+          -947.067
+        ],
+        [
+          12146.797,
+          -947.067
+        ],
+        [
+          12146.797,
+          -961.067
+        ]
+      ]
+    },
+    {
+      "source": "candidate_node_1c4ca5be5503e36b47fa8d0a265da7ef8de6391cadd3f1999e7fb5054ff5260f",
+      "target": "candidate_node_559e63e98373443317c7f29e2b7ce749a451d9455e3994171c9daf48174d1334",
+      "path_points": [
+        [
+          11997.368,
+          -1060.1
+        ],
+        [
+          12005.368,
+          -1060.1
+        ],
+        [
+          12043.815,
+          -1060.1
+        ],
+        [
+          12043.815,
+          -1056.971
+        ],
+        [
+          12051.815,
+          -1056.971
+        ]
+      ]
+    }
+  ]
+}

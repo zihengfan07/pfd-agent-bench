@@ -79,6 +79,7 @@
     try {localStorage.setItem('pfd-language',lang);} catch (_) {}
     $('language').textContent=lang==='en'?'中文':'EN';$('language').setAttribute('aria-label',lang==='en'?'Switch to Chinese':'切换到英文');
     const current=sheet?.id;renderCase();chooseSheet(current||selectedCase.featured);renderResults();
+    setDemoLanguage(lang);
   }
   $('language').addEventListener('click',()=>setLanguage(lang==='en'?'zh':'en'));
   $('sheet-select').addEventListener('change',e=>chooseSheet(e.target.value));
@@ -91,10 +92,45 @@
   svg.addEventListener('keydown',e=>{if(e.key==='+')zoom(.72);else if(e.key==='-')zoom(1/.72);else if(e.key==='0')fit();else if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();view.x+=(e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0)*view.w*.1;view.y+=(e.key==='ArrowDown'?1:e.key==='ArrowUp'?-1:0)*view.h*.1;updateView();}});
   document.querySelectorAll('.inspect-challenge').forEach(link=>link.addEventListener('click',()=>{chooseCase(link.dataset.case);chooseSheet(link.dataset.sheet);}));
   const demo = $('workflow-video');
+  let demoLoadId = 0, demoPendingTime = null;
+  function setDemoLanguage(next) {
+    document.querySelectorAll('[data-demo-lang]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.demoLang === next)));
+    const path = `assets/demo/pfd-workflow-demo-v2-${next}.mp4`;
+    $('demo-download').href = path;
+    if (demo.dataset.audioLang === next) return;
+    const position = demoPendingTime ?? demo.currentTime, resume = !demo.paused;
+    const loadId = ++demoLoadId;
+    demoPendingTime = position;
+    demo.dataset.audioLang = next;
+    demo.pause();
+    demo.addEventListener('loadedmetadata', () => {
+      if (loadId !== demoLoadId) return;
+      demo.currentTime = Math.min(demoPendingTime ?? position, demo.duration - .1);
+      demoPendingTime = null;
+      if (resume) demo.play().catch(() => {});
+    }, {once:true});
+    demo.querySelector('source').src = path;
+    demo.load();
+  }
+  document.querySelectorAll('[data-demo-lang]').forEach(b => b.addEventListener('click', () => setDemoLanguage(b.dataset.demoLang)));
   document.querySelectorAll('[data-demo-time]').forEach(button => button.addEventListener('click', () => {
-    demo.currentTime = Number(button.dataset.demoTime);
+    const position = Number(button.dataset.demoTime);
+    if (demo.readyState >= 1) demo.currentTime = position;
+    else {
+      demoPendingTime = position;
+      demo.addEventListener('loadedmetadata', () => { demo.currentTime = position; demoPendingTime = null; }, {once:true});
+    }
     demo.play().catch(() => { demo.focus(); });
   }));
+  const chapters = [...document.querySelectorAll('[data-demo-time]')];
+  demo.addEventListener('timeupdate', () => {
+    const active = chapters.findLast(b => Number(b.dataset.demoTime) <= demo.currentTime);
+    chapters.forEach(b => {
+      b.classList.toggle('playing-chapter', b === active);
+      if (b === active) b.setAttribute('aria-current', 'step');
+      else b.removeAttribute('aria-current');
+    });
+  });
   let initialLang = new URLSearchParams(location.search).get('lang');
   if(!initialLang) {try {initialLang=localStorage.getItem('pfd-language');}catch (_) {}}
   setLanguage(initialLang==='zh'?'zh':'en');

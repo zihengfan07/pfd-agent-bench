@@ -10,7 +10,7 @@ School of Artificial Intelligence, Shanghai Jiao Tong University
 ## What is included
 
 - Bilingual project homepage with language switching and interactive CAD navigation.
-- A 90-second, 1080p bilingual workflow video with chapter navigation, transcript and downloadable case evidence.
+- A 75-second, 1080p CAD-led walkthrough with English / Chinese narration, chapter navigation, transcript and downloadable case evidence.
 - Three source-grounded challenge figures, each in English and Chinese.
 - Five complete supplied review cases: 111 individual CAD sheets plus five package masters, XML inputs, DWG / DXF / PDF files, previews, metadata, and an offline review application.
 - Nine-configuration benchmark summary on 50 tasks per configuration (450 scored artifacts). The frozen evaluation corpus and newer review gallery are versioned separately.
@@ -51,4 +51,4 @@ Required HARD_A07 source citation: James Scott and Thomas A. Adams II, “Biomas
 
 [Watch the demo](https://zihengfan07.github.io/pfd-agent-bench/#demo). The video replays saved artifacts and illustrates the method stages; it is not a live execution recording. It follows the historical 33-sheet HARD_A06 package, whose XML and master DXF hashes match the frozen r010 receipt p0119. Four case scores are 98.99 / 88.28 / 72.24 / 98.27. The source was a saved-evidence recovery marked `draft_with_issues`. The newer 34-sheet review gallery remains a separate artifact version.
 
-The video has burned-in English and Chinese captions and no audio. Optional WebVTT subtitles, a transcript, a minimal case evidence archive and file hashes are under `assets/demo/`. Reproduction instructions are in `assets/demo/README.txt`; the renderer is `tools/build_demo.py`. No model API call is made to render this presentation.
+The redesigned video follows native CAD geometry from a mapped input connection through layered drawing assembly, a cross-sheet stream, recorded Bench objects and four case scores. It includes English / Chinese synthesized narration and bilingual short captions. Changing narration preserves the playback position. Optional full WebVTT transcripts, case evidence and file hashes are under `assets/demo/`. Reproduction instructions are in `assets/demo/README.txt`; the renderer is `tools/build_demo_v2.py`. No model API call is made to render this presentation. The first video remains archived as `pfd-workflow-demo.mp4`.

@@ -1,0 +1,50 @@
+[
+  {
+    "start": 0,
+    "end": 5,
+    "en": "From process data to editable drawings, then independent assessment.",
+    "zh": "从工艺数据生成图纸，再独立检查图纸。"
+  },
+  {
+    "start": 5,
+    "end": 16,
+    "en": "Start with the process data. Follow these two equipment nodes: their directed connection in the input must also appear in the drawing.",
+    "zh": "先看这两个设备。输入数据规定了它们的连接关系，这个关系也必须准确地出现在图纸上。"
+  },
+  {
+    "start": 16,
+    "end": 29,
+    "en": "Now watch the saved drawing assemble. Equipment symbols appear first, then routed connections and labels. The animation reveals the actual exported geometry.",
+    "zh": "接下来，把保存的图纸拆开来看。先是设备符号，再是连接管线和标注。这里逐层展示的，都是实际导出的图纸几何。"
+  },
+  {
+    "start": 29,
+    "end": 36,
+    "en": "This process spans thirty-three drawing sheets. Local layouts must remain connected as one process.",
+    "zh": "这个工艺跨越三十三张图纸。每一张局部图纸，都必须保持在同一个流程之中。"
+  },
+  {
+    "start": 36,
+    "end": 48,
+    "en": "Follow stream S one twenty. It leaves sheet one oh four and continues on sheet one fourteen. The same identifier connects both ends.",
+    "zh": "跟着这条物流，看它如何跨页。从一零四号图纸离开，再进入一一四号图纸。相同的物流编号，把两端连了起来。"
+  },
+  {
+    "start": 48,
+    "end": 59,
+    "en": "Bench reads the delivered CAD independently. These ten objects come from its recorded extraction. The candidate graph is frozen before comparison with the task.",
+    "zh": "Bench 独立读取交付的 CAD。右侧这十个对象来自真实读取记录。候选图先被冻结，再与任务要求进行比较。"
+  },
+  {
+    "start": 59,
+    "end": 69,
+    "en": "Four scores describe different properties: equipment inventory, symbol geometry, matched connectivity and local layout. These are the recorded scores for this exact drawing package.",
+    "zh": "四项分数分别检查设备、符号、连接和局部布局。这里显示的，是这一份图纸的实际评分记录。"
+  },
+  {
+    "start": 69,
+    "end": 75,
+    "en": "Explore the drawings and score evidence on the project website.",
+    "zh": "在项目网页中，可以继续查看真实图纸和评分依据。"
+  }
+]

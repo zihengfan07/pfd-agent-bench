@@ -2,13 +2,16 @@
   "schema": "pfd-demo-evidence.v1",
   "case": "HARD_A06",
   "mode": "saved-artifact walkthrough",
-  "duration_seconds": 90,
+  "duration_seconds": 75,
   "resolution": [
     1920,
     1080
   ],
   "fps": 24,
-  "audio": false,
+  "audio": {
+    "en": "Microsoft Zira Desktop; local synthetic narration",
+    "zh": "Microsoft Huihui Desktop; local synthetic narration"
+  },
   "selection": "Large process with all four recorded dimensions and original native PDF exports; not selected by highest score.",
   "source_package": "PFD_50题_XML与CAD_20261104结果_20261105整理.zip",
   "generation_source_run_id": "agent_run_20261104_151551_577552",
@@ -64,7 +67,7 @@
   },
   "source_attribution": "https://www.nlr.gov/extranet/biorefinery/aspen-models",
   "license_note": "Case source: GNU General Public License; source page does not specify version. Retain source attribution. Original artifacts remain unchanged.",
-  "rendering": "Original supplied PDF exports rasterized by PyMuPDF; no CAD entity or text edits. Camera crop, zoom and original-pixel scaling only.",
+  "rendering": "Native PDF points and original colors preserved. Equipment/routes are separated by PDF stroke color solely for animated explanation; full original PDF is restored. Cross-sheet tracer is a presentation overlay; it is not extra CAD geometry.",
   "figure_scope": "Stage diagrams are method schematics. Source-derived identifiers are generation-side evidence, not Bench inputs.",
   "gallery_version_note": "This 33-sheet historical scored package differs from the 34-sheet current review gallery.",
   "source_files": {
@@ -73,5 +76,15 @@
     "identifier_mapping.json": "c06220681cf9d034aa89833f56a9984925772ed6066a9c6c0cbe7c35bf58d7b1",
     "PDF/PFD-104.pdf": "7e8e81b09d41b1c0b4f4f0d0affa6cb8f8e128f5f1b8938f050f36a6f35de2b2",
     "PDF/PFD-114.pdf": "cadc558dbdb812505bd01c8b136d4893d5bc92be424348732a9b6f9dd3c26453"
+  },
+  "video_version": 2,
+  "visual_design": "CAD-led walkthrough; source connection tracing, actual PDF vector layer reveal, actual recorded CAD object geometry and original scores.",
+  "reader_visualization": {
+    "source_graph_sha256": "6a9f728f52bcf1aff598952395787e9dd75c3047a74e932228efaab13c43f886",
+    "panel": "114",
+    "equipment_nodes": 10,
+    "within_panel_edges": 9,
+    "master_equipment_nodes": 444,
+    "file": "reader-panel114.json"
   }
 }

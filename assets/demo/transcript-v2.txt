@@ -1,0 +1,42 @@
+PFD-Agent / PFD-Bench — CAD-led visual walkthrough (v2)
+
+75 seconds, 1080p, bilingual captions, separate English and Chinese synthetic narration.
+This is an animation of saved evidence, not a fresh live Agent run.
+The A06 source package is a saved-evidence recovery marked draft_with_issues.
+
+00–05s
+From process data to editable drawings, then independent assessment.
+从工艺数据生成图纸，再独立检查图纸。
+
+05–16s
+Start with the process data. Follow these two equipment nodes: their directed connection in the input must also appear in the drawing.
+先看这两个设备。输入数据规定了它们的连接关系，这个关系也必须准确地出现在图纸上。
+
+16–29s
+Now watch the saved drawing assemble. Equipment symbols appear first, then routed connections and labels. The animation reveals the actual exported geometry.
+接下来，把保存的图纸拆开来看。先是设备符号，再是连接管线和标注。这里逐层展示的，都是实际导出的图纸几何。
+
+29–36s
+This process spans thirty-three drawing sheets. Local layouts must remain connected as one process.
+这个工艺跨越三十三张图纸。每一张局部图纸，都必须保持在同一个流程之中。
+
+36–48s
+Follow stream S one twenty. It leaves sheet one oh four and continues on sheet one fourteen. The same identifier connects both ends.
+跟着这条物流，看它如何跨页。从一零四号图纸离开，再进入一一四号图纸。相同的物流编号，把两端连了起来。
+
+48–59s
+Bench reads the delivered CAD independently. These ten objects come from its recorded extraction. The candidate graph is frozen before comparison with the task.
+Bench 独立读取交付的 CAD。右侧这十个对象来自真实读取记录。候选图先被冻结，再与任务要求进行比较。
+
+59–69s
+Four scores describe different properties: equipment inventory, symbol geometry, matched connectivity and local layout. These are the recorded scores for this exact drawing package.
+四项分数分别检查设备、符号、连接和局部布局。这里显示的，是这一份图纸的实际评分记录。
+
+69–75s
+Explore the drawings and score evidence on the project website.
+在项目网页中，可以继续查看真实图纸和评分依据。
+
+Original four-dimensional scores remain unchanged: 98.987627 / 88.276130 / 72.243390 / 98.269455.
+The demo uses the historical 33-sheet A06 package. The website review gallery has a separate 34-sheet version.
+Bench object visualization comes from its frozen candidate graph (10 objects and 9 internal edges on panel 114; 444 equipment objects in the master graph). These are not new detections.
+PDF layer reveal and moving tracers explain the workflow; they do not show generation wall time or an automatic repair loop.
