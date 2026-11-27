@@ -1,0 +1,4351 @@
+{
+  "schema_version": "1.0-source-drawing-identifiers",
+  "equipment": [
+    {
+      "equipment_id": "C-101",
+      "aspen_block_id": "BURNER.B1",
+      "display_name": "BURNER.B1",
+      "equipment_type": "compressor",
+      "source_xml_path": "/Plant/BlockCompr[1]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "C-102",
+      "aspen_block_id": "BURNER.B2",
+      "display_name": "BURNER.B2",
+      "equipment_type": "turbine",
+      "source_xml_path": "/Plant/BlockExpander[1]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-101",
+      "aspen_block_id": "BURNER.B3",
+      "display_name": "BURNER.B3",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[1]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-101",
+      "aspen_block_id": "BURNER.COOL",
+      "display_name": "BURNER.COOL",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[1]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-101",
+      "aspen_block_id": "BURNER.WBURNER",
+      "display_name": "BURNER.WBURNER",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRgibbs[1]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-101",
+      "aspen_block_id": "CELLULOS.B1",
+      "display_name": "CELLULOS.B1",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[1]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-102",
+      "aspen_block_id": "CELLULOS.B2",
+      "display_name": "CELLULOS.B2",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[2]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-101",
+      "aspen_block_id": "CELLULOS.B3",
+      "display_name": "CELLULOS.B3",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[1]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-101",
+      "aspen_block_id": "CELLULOS.B4",
+      "display_name": "CELLULOS.B4",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[1]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-102",
+      "aspen_block_id": "CELLULOS.B5",
+      "display_name": "CELLULOS.B5",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[2]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-103",
+      "aspen_block_id": "CELLULOS.B6",
+      "display_name": "CELLULOS.B6",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[3]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-104",
+      "aspen_block_id": "CELLULOS.COOL1",
+      "display_name": "CELLULOS.COOL1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[4]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-105",
+      "aspen_block_id": "CELLULOS.HEAT1",
+      "display_name": "CELLULOS.HEAT1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[5]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-102",
+      "aspen_block_id": "CELLULOS.MIX2",
+      "display_name": "CELLULOS.MIX2",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[2]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-102",
+      "aspen_block_id": "CELLULOS.PUMP1",
+      "display_name": "CELLULOS.PUMP1",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[2]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-103",
+      "aspen_block_id": "CELLULOS.PUMP3",
+      "display_name": "CELLULOS.PUMP3",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[3]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-102",
+      "aspen_block_id": "CELLULOS.REACT3",
+      "display_name": "CELLULOS.REACT3",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[1]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "UNK-101",
+      "aspen_block_id": "CELLULOS.WASHH2O",
+      "display_name": "CELLULOS.WASHH2O",
+      "equipment_type": "unknown",
+      "source_xml_path": "/Plant/BlockProcessUnit[1]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-106",
+      "aspen_block_id": "DEPOLY.B1",
+      "display_name": "DEPOLY.B1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[6]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "C-103",
+      "aspen_block_id": "DEPOLY.COMP",
+      "display_name": "DEPOLY.COMP",
+      "equipment_type": "compressor",
+      "source_xml_path": "/Plant/BlockCompr[2]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "C-104",
+      "aspen_block_id": "DEPOLY.COMP2",
+      "display_name": "DEPOLY.COMP2",
+      "equipment_type": "compressor",
+      "source_xml_path": "/Plant/BlockCompr[3]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "C-105",
+      "aspen_block_id": "DEPOLY.COMP3",
+      "display_name": "DEPOLY.COMP3",
+      "equipment_type": "compressor",
+      "source_xml_path": "/Plant/BlockCompr[4]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-107",
+      "aspen_block_id": "DEPOLY.COOL1",
+      "display_name": "DEPOLY.COOL1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[7]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-108",
+      "aspen_block_id": "DEPOLY.COOL10",
+      "display_name": "DEPOLY.COOL10",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[8]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-109",
+      "aspen_block_id": "DEPOLY.COOL11",
+      "display_name": "DEPOLY.COOL11",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[9]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-110",
+      "aspen_block_id": "DEPOLY.COOL12",
+      "display_name": "DEPOLY.COOL12",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[10]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-111",
+      "aspen_block_id": "DEPOLY.COOL13",
+      "display_name": "DEPOLY.COOL13",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[11]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-112",
+      "aspen_block_id": "DEPOLY.COOL2",
+      "display_name": "DEPOLY.COOL2",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[12]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-113",
+      "aspen_block_id": "DEPOLY.COOL3",
+      "display_name": "DEPOLY.COOL3",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[13]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-114",
+      "aspen_block_id": "DEPOLY.COOL4",
+      "display_name": "DEPOLY.COOL4",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[14]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-115",
+      "aspen_block_id": "DEPOLY.COOL5",
+      "display_name": "DEPOLY.COOL5",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[15]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-116",
+      "aspen_block_id": "DEPOLY.COOL6",
+      "display_name": "DEPOLY.COOL6",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[16]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-117",
+      "aspen_block_id": "DEPOLY.COOL9",
+      "display_name": "DEPOLY.COOL9",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[17]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "T-101",
+      "aspen_block_id": "DEPOLY.DISTPS",
+      "display_name": "DEPOLY.DISTPS",
+      "equipment_type": "column",
+      "source_xml_path": "/Plant/BlockDistillation[1]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "T-102",
+      "aspen_block_id": "DEPOLY.DISTSG",
+      "display_name": "DEPOLY.DISTSG",
+      "equipment_type": "column",
+      "source_xml_path": "/Plant/BlockDistillation[2]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-103",
+      "aspen_block_id": "DEPOLY.DRUM",
+      "display_name": "DEPOLY.DRUM",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[3]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-104",
+      "aspen_block_id": "DEPOLY.DRUM2",
+      "display_name": "DEPOLY.DRUM2",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[4]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-105",
+      "aspen_block_id": "DEPOLY.FLETHYL",
+      "display_name": "DEPOLY.FLETHYL",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[5]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-106",
+      "aspen_block_id": "DEPOLY.FLETOH",
+      "display_name": "DEPOLY.FLETOH",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[6]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-107",
+      "aspen_block_id": "DEPOLY.FLH2",
+      "display_name": "DEPOLY.FLH2",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockComponentSeparator[1]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-108",
+      "aspen_block_id": "DEPOLY.FLH2BIS",
+      "display_name": "DEPOLY.FLH2BIS",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockComponentSeparator[2]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-109",
+      "aspen_block_id": "DEPOLY.FLOLIGO",
+      "display_name": "DEPOLY.FLOLIGO",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[7]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-118",
+      "aspen_block_id": "DEPOLY.HEAT1",
+      "display_name": "DEPOLY.HEAT1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[18]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-103",
+      "aspen_block_id": "DEPOLY.MIX1",
+      "display_name": "DEPOLY.MIX1",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[3]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-104",
+      "aspen_block_id": "DEPOLY.MIX2",
+      "display_name": "DEPOLY.MIX2",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[4]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-105",
+      "aspen_block_id": "DEPOLY.MIX3",
+      "display_name": "DEPOLY.MIX3",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[5]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-106",
+      "aspen_block_id": "DEPOLY.MIX4",
+      "display_name": "DEPOLY.MIX4",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[6]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-107",
+      "aspen_block_id": "DEPOLY.MIX6",
+      "display_name": "DEPOLY.MIX6",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[7]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-104",
+      "aspen_block_id": "DEPOLY.PUMP1",
+      "display_name": "DEPOLY.PUMP1",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[4]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-105",
+      "aspen_block_id": "DEPOLY.PUMP2",
+      "display_name": "DEPOLY.PUMP2",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[5]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-106",
+      "aspen_block_id": "DEPOLY.PUMP3",
+      "display_name": "DEPOLY.PUMP3",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[6]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-107",
+      "aspen_block_id": "DEPOLY.PUMP4",
+      "display_name": "DEPOLY.PUMP4",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[7]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-108",
+      "aspen_block_id": "DEPOLY.PUMP5",
+      "display_name": "DEPOLY.PUMP5",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[8]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-109",
+      "aspen_block_id": "DEPOLY.PUMP6",
+      "display_name": "DEPOLY.PUMP6",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[9]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-110",
+      "aspen_block_id": "DEPOLY.PUMP7",
+      "display_name": "DEPOLY.PUMP7",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[10]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-111",
+      "aspen_block_id": "DEPOLY.PUMP9",
+      "display_name": "DEPOLY.PUMP9",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[11]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "T-103",
+      "aspen_block_id": "DEPOLY.PURIFPG",
+      "display_name": "DEPOLY.PURIFPG",
+      "equipment_type": "column",
+      "source_xml_path": "/Plant/BlockDistillation[3]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-103",
+      "aspen_block_id": "DEPOLY.REACT4",
+      "display_name": "DEPOLY.REACT4",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[2]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-102",
+      "aspen_block_id": "DEPOLY.VALVE",
+      "display_name": "DEPOLY.VALVE",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[2]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-103",
+      "aspen_block_id": "DEPOLY.VALVE3",
+      "display_name": "DEPOLY.VALVE3",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[3]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-119",
+      "aspen_block_id": "DMGX.COOL1",
+      "display_name": "DMGX.COOL1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[19]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-120",
+      "aspen_block_id": "DMGX.COOL2",
+      "display_name": "DMGX.COOL2",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[20]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-121",
+      "aspen_block_id": "DMGX.COOL3",
+      "display_name": "DMGX.COOL3",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[21]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-122",
+      "aspen_block_id": "DMGX.COOL4",
+      "display_name": "DMGX.COOL4",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[22]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-123",
+      "aspen_block_id": "DMGX.COOL5",
+      "display_name": "DMGX.COOL5",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[23]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-124",
+      "aspen_block_id": "DMGX.COOL8",
+      "display_name": "DMGX.COOL8",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[24]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "UNK-102",
+      "aspen_block_id": "DMGX.CRYST",
+      "display_name": "DMGX.CRYST",
+      "equipment_type": "unknown",
+      "source_xml_path": "/Plant/BlockProcessUnit[2]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "T-104",
+      "aspen_block_id": "DMGX.DIST1",
+      "display_name": "DMGX.DIST1",
+      "equipment_type": "column",
+      "source_xml_path": "/Plant/BlockDistillation[4]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "T-105",
+      "aspen_block_id": "DMGX.DIST2",
+      "display_name": "DMGX.DIST2",
+      "equipment_type": "column",
+      "source_xml_path": "/Plant/BlockDistillation[5]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "T-106",
+      "aspen_block_id": "DMGX.DRYER",
+      "display_name": "DMGX.DRYER",
+      "equipment_type": "column",
+      "source_xml_path": "/Plant/BlockDistillation[6]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "UNK-103",
+      "aspen_block_id": "DMGX.FILTER",
+      "display_name": "DMGX.FILTER",
+      "equipment_type": "unknown",
+      "source_xml_path": "/Plant/BlockProcessUnit[3]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "UNK-104",
+      "aspen_block_id": "DMGX.FILTER2",
+      "display_name": "DMGX.FILTER2",
+      "equipment_type": "unknown",
+      "source_xml_path": "/Plant/BlockProcessUnit[4]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-110",
+      "aspen_block_id": "DMGX.FLASH1",
+      "display_name": "DMGX.FLASH1",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[8]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-111",
+      "aspen_block_id": "DMGX.FLASH2",
+      "display_name": "DMGX.FLASH2",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[9]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-112",
+      "aspen_block_id": "DMGX.FLASH3",
+      "display_name": "DMGX.FLASH3",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockFlash2[10]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-125",
+      "aspen_block_id": "DMGX.HEAT1",
+      "display_name": "DMGX.HEAT1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[25]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-126",
+      "aspen_block_id": "DMGX.HEAT2",
+      "display_name": "DMGX.HEAT2",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[26]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-127",
+      "aspen_block_id": "DMGX.HEAT3",
+      "display_name": "DMGX.HEAT3",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[27]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-108",
+      "aspen_block_id": "DMGX.MIX1",
+      "display_name": "DMGX.MIX1",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[8]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-109",
+      "aspen_block_id": "DMGX.MIX2",
+      "display_name": "DMGX.MIX2",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[9]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-110",
+      "aspen_block_id": "DMGX.MIX3",
+      "display_name": "DMGX.MIX3",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[10]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-111",
+      "aspen_block_id": "DMGX.MIX4",
+      "display_name": "DMGX.MIX4",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[11]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-112",
+      "aspen_block_id": "DMGX.MIX5",
+      "display_name": "DMGX.MIX5",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[12]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-113",
+      "aspen_block_id": "DMGX.MIX6",
+      "display_name": "DMGX.MIX6",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[13]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-114",
+      "aspen_block_id": "DMGX.MIX7",
+      "display_name": "DMGX.MIX7",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[14]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-115",
+      "aspen_block_id": "DMGX.MIX8",
+      "display_name": "DMGX.MIX8",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[15]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-116",
+      "aspen_block_id": "DMGX.MIX9",
+      "display_name": "DMGX.MIX9",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[16]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "C-106",
+      "aspen_block_id": "DMGX.MVR",
+      "display_name": "DMGX.MVR",
+      "equipment_type": "compressor",
+      "source_xml_path": "/Plant/BlockCompr[5]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-112",
+      "aspen_block_id": "DMGX.PUMP1",
+      "display_name": "DMGX.PUMP1",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[12]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-113",
+      "aspen_block_id": "DMGX.PUMP11",
+      "display_name": "DMGX.PUMP11",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[13]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-114",
+      "aspen_block_id": "DMGX.PUMP12",
+      "display_name": "DMGX.PUMP12",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[14]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-115",
+      "aspen_block_id": "DMGX.PUMP13",
+      "display_name": "DMGX.PUMP13",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[15]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-116",
+      "aspen_block_id": "DMGX.PUMP14",
+      "display_name": "DMGX.PUMP14",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[16]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-117",
+      "aspen_block_id": "DMGX.PUMP15",
+      "display_name": "DMGX.PUMP15",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[17]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-118",
+      "aspen_block_id": "DMGX.PUMP16",
+      "display_name": "DMGX.PUMP16",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[18]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-119",
+      "aspen_block_id": "DMGX.PUMP17",
+      "display_name": "DMGX.PUMP17",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[19]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-120",
+      "aspen_block_id": "DMGX.PUMP18",
+      "display_name": "DMGX.PUMP18",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[20]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-121",
+      "aspen_block_id": "DMGX.PUMP2",
+      "display_name": "DMGX.PUMP2",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[21]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-122",
+      "aspen_block_id": "DMGX.PUMP4",
+      "display_name": "DMGX.PUMP4",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[22]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-123",
+      "aspen_block_id": "DMGX.PUMP5",
+      "display_name": "DMGX.PUMP5",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[23]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-124",
+      "aspen_block_id": "DMGX.PUMP6",
+      "display_name": "DMGX.PUMP6",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[24]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-125",
+      "aspen_block_id": "DMGX.PUMP7",
+      "display_name": "DMGX.PUMP7",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[25]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-126",
+      "aspen_block_id": "DMGX.PUMP8",
+      "display_name": "DMGX.PUMP8",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[26]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-127",
+      "aspen_block_id": "DMGX.PUMP9",
+      "display_name": "DMGX.PUMP9",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[27]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-104",
+      "aspen_block_id": "DMGX.REACT1",
+      "display_name": "DMGX.REACT1",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[3]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-105",
+      "aspen_block_id": "DMGX.REACT2",
+      "display_name": "DMGX.REACT2",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[4]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-106",
+      "aspen_block_id": "DMGX.REACT3",
+      "display_name": "DMGX.REACT3",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[5]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-107",
+      "aspen_block_id": "DMGX.REACT4",
+      "display_name": "DMGX.REACT4",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[6]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-104",
+      "aspen_block_id": "DMGX.VALVE",
+      "display_name": "DMGX.VALVE",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[4]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-105",
+      "aspen_block_id": "DMGX.VALVE2",
+      "display_name": "DMGX.VALVE2",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[5]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-106",
+      "aspen_block_id": "DMGX.VALVE3",
+      "display_name": "DMGX.VALVE3",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[6]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-107",
+      "aspen_block_id": "DMGX.VALVE4",
+      "display_name": "DMGX.VALVE4",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[7]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "UNK-105",
+      "aspen_block_id": "DUPL",
+      "display_name": "DUPL",
+      "equipment_type": "unknown",
+      "source_xml_path": "/Plant/BlockProcessUnit[5]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-128",
+      "aspen_block_id": "HEMICELL.COOL1",
+      "display_name": "HEMICELL.COOL1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[28]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-129",
+      "aspen_block_id": "HEMICELL.COOL2",
+      "display_name": "HEMICELL.COOL2",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[29]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-130",
+      "aspen_block_id": "HEMICELL.COOL3",
+      "display_name": "HEMICELL.COOL3",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[30]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-117",
+      "aspen_block_id": "HEMICELL.MIX1",
+      "display_name": "HEMICELL.MIX1",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[17]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-128",
+      "aspen_block_id": "HEMICELL.PUMP1",
+      "display_name": "HEMICELL.PUMP1",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[28]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-129",
+      "aspen_block_id": "HEMICELL.PUMP2",
+      "display_name": "HEMICELL.PUMP2",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[29]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-130",
+      "aspen_block_id": "HEMICELL.PUMP3",
+      "display_name": "HEMICELL.PUMP3",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[30]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-108",
+      "aspen_block_id": "HEMICELL.REACT7",
+      "display_name": "HEMICELL.REACT7",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[7]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "UNK-106",
+      "aspen_block_id": "HEMICELL.WASHH2O",
+      "display_name": "HEMICELL.WASHH2O",
+      "equipment_type": "unknown",
+      "source_xml_path": "/Plant/BlockProcessUnit[6]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "SEP-113",
+      "aspen_block_id": "PRETREAT.B4",
+      "display_name": "PRETREAT.B4",
+      "equipment_type": "separator",
+      "source_xml_path": "/Plant/BlockComponentSeparator[3]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-131",
+      "aspen_block_id": "PRETREAT.COOL1",
+      "display_name": "PRETREAT.COOL1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[31]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-132",
+      "aspen_block_id": "PRETREAT.COOL2",
+      "display_name": "PRETREAT.COOL2",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[32]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-133",
+      "aspen_block_id": "PRETREAT.COOL4",
+      "display_name": "PRETREAT.COOL4",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[33]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "T-107",
+      "aspen_block_id": "PRETREAT.DIST1",
+      "display_name": "PRETREAT.DIST1",
+      "equipment_type": "column",
+      "source_xml_path": "/Plant/BlockDistillation[7]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "E-134",
+      "aspen_block_id": "PRETREAT.HEAT1",
+      "display_name": "PRETREAT.HEAT1",
+      "equipment_type": "heat_exchanger",
+      "source_xml_path": "/Plant/BlockHeater[34]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-118",
+      "aspen_block_id": "PRETREAT.MIX1",
+      "display_name": "PRETREAT.MIX1",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[18]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-119",
+      "aspen_block_id": "PRETREAT.MIX2",
+      "display_name": "PRETREAT.MIX2",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[19]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-120",
+      "aspen_block_id": "PRETREAT.MIX3",
+      "display_name": "PRETREAT.MIX3",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[20]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-121",
+      "aspen_block_id": "PRETREAT.MIX4",
+      "display_name": "PRETREAT.MIX4",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[21]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-122",
+      "aspen_block_id": "PRETREAT.MIX5",
+      "display_name": "PRETREAT.MIX5",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[22]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-109",
+      "aspen_block_id": "PRETREAT.NEUTRA",
+      "display_name": "PRETREAT.NEUTRA",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[8]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-131",
+      "aspen_block_id": "PRETREAT.PUMP1",
+      "display_name": "PRETREAT.PUMP1",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[31]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-132",
+      "aspen_block_id": "PRETREAT.PUMP10",
+      "display_name": "PRETREAT.PUMP10",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[32]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-133",
+      "aspen_block_id": "PRETREAT.PUMP11",
+      "display_name": "PRETREAT.PUMP11",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[33]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-134",
+      "aspen_block_id": "PRETREAT.PUMP3",
+      "display_name": "PRETREAT.PUMP3",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[34]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-135",
+      "aspen_block_id": "PRETREAT.PUMP4",
+      "display_name": "PRETREAT.PUMP4",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[35]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-136",
+      "aspen_block_id": "PRETREAT.PUMP5",
+      "display_name": "PRETREAT.PUMP5",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[36]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-137",
+      "aspen_block_id": "PRETREAT.PUMP6",
+      "display_name": "PRETREAT.PUMP6",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[37]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-138",
+      "aspen_block_id": "PRETREAT.PUMP7",
+      "display_name": "PRETREAT.PUMP7",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[38]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "P-139",
+      "aspen_block_id": "PRETREAT.PUMP9",
+      "display_name": "PRETREAT.PUMP9",
+      "equipment_type": "pump",
+      "source_xml_path": "/Plant/BlockPump[39]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "R-110",
+      "aspen_block_id": "PRETREAT.REACT1",
+      "display_name": "PRETREAT.REACT1",
+      "equipment_type": "reactor",
+      "source_xml_path": "/Plant/BlockRstoic[9]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "V-108",
+      "aspen_block_id": "PRETREAT.VALVE",
+      "display_name": "PRETREAT.VALVE",
+      "equipment_type": "valve",
+      "source_xml_path": "/Plant/BlockValve[8]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "UNK-107",
+      "aspen_block_id": "PRETREAT.WASHMTHF",
+      "display_name": "PRETREAT.WASHMTHF",
+      "equipment_type": "unknown",
+      "source_xml_path": "/Plant/BlockProcessUnit[7]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "equipment_id": "M-123",
+      "aspen_block_id": "WASTEMIX",
+      "display_name": "WASTEMIX",
+      "equipment_type": "mixer",
+      "source_xml_path": "/Plant/BlockMixer[23]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    }
+  ],
+  "streams": [
+    {
+      "stream_id": "S-001",
+      "aspen_stream_id": "BIOMASS",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-105",
+      "source_xml_path": "/Plant/StreamMaterial[1]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-002",
+      "aspen_stream_id": "BURNER.AIRWASTE",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "C-101",
+      "source_xml_path": "/Plant/StreamMaterial[2]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-003",
+      "aspen_stream_id": "BURNER.S1",
+      "source_node_type": "equipment",
+      "source_node_id": "M-101",
+      "target_node_type": "equipment",
+      "target_node_id": "R-101",
+      "source_xml_path": "/Plant/StreamMaterial[3]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-004",
+      "aspen_stream_id": "BURNER.S2",
+      "source_node_type": "equipment",
+      "source_node_id": "R-101",
+      "target_node_type": "equipment",
+      "target_node_id": "C-102",
+      "source_xml_path": "/Plant/StreamMaterial[4]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-005",
+      "aspen_stream_id": "BURNER.S3",
+      "source_node_type": "equipment",
+      "source_node_id": "C-101",
+      "target_node_type": "equipment",
+      "target_node_id": "M-101",
+      "source_xml_path": "/Plant/StreamMaterial[5]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-006",
+      "aspen_stream_id": "BURNER.S4",
+      "source_node_type": "equipment",
+      "source_node_id": "C-102",
+      "target_node_type": "equipment",
+      "target_node_id": "E-101",
+      "source_xml_path": "/Plant/StreamMaterial[6]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-007",
+      "aspen_stream_id": "CELLULOS.FRESHWAT",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-102",
+      "source_xml_path": "/Plant/StreamMaterial[7]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-008",
+      "aspen_stream_id": "CELLULOS.HOTWATER",
+      "source_node_type": "equipment",
+      "source_node_id": "M-102",
+      "target_node_type": "equipment",
+      "target_node_id": "E-105",
+      "source_xml_path": "/Plant/StreamMaterial[8]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-009",
+      "aspen_stream_id": "CELLULOS.PURGE",
+      "source_node_type": "junction",
+      "source_node_id": "J-001",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[9]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-010",
+      "aspen_stream_id": "CELLULOS.RECH2O",
+      "source_node_type": "equipment",
+      "source_node_id": "E-102",
+      "target_node_type": "equipment",
+      "target_node_id": "M-102",
+      "source_xml_path": "/Plant/StreamMaterial[10]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-011",
+      "aspen_stream_id": "CELLULOS.RECYCLED",
+      "source_node_type": "junction",
+      "source_node_id": "J-001",
+      "target_node_type": "equipment",
+      "target_node_id": "M-102",
+      "source_xml_path": "/Plant/StreamMaterial[11]",
+      "sheet_ids": [
+        "PFD-110",
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-012",
+      "aspen_stream_id": "CELLULOS.RECYH2O",
+      "source_node_type": "equipment",
+      "source_node_id": "E-105",
+      "target_node_type": "equipment",
+      "target_node_id": "P-102",
+      "source_xml_path": "/Plant/StreamMaterial[12]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-013",
+      "aspen_stream_id": "CELLULOS.S1",
+      "source_node_type": "equipment",
+      "source_node_id": "P-103",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-101",
+      "source_xml_path": "/Plant/StreamMaterial[13]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-014",
+      "aspen_stream_id": "CELLULOS.S2",
+      "source_node_type": "equipment",
+      "source_node_id": "E-103",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-101",
+      "source_xml_path": "/Plant/StreamMaterial[14]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-015",
+      "aspen_stream_id": "CELLULOS.S3",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-101",
+      "target_node_type": "equipment",
+      "target_node_id": "V-101",
+      "source_xml_path": "/Plant/StreamMaterial[15]",
+      "sheet_ids": [
+        "PFD-108",
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-016",
+      "aspen_stream_id": "CELLULOS.S4",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-102",
+      "target_node_type": "equipment",
+      "target_node_id": "E-102",
+      "source_xml_path": "/Plant/StreamMaterial[16]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-017",
+      "aspen_stream_id": "CELLULOS.S5",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-102",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[17]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-018",
+      "aspen_stream_id": "CELLULOS.S6",
+      "source_node_type": "equipment",
+      "source_node_id": "P-101",
+      "target_node_type": "equipment",
+      "target_node_id": "E-103",
+      "source_xml_path": "/Plant/StreamMaterial[18]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-019",
+      "aspen_stream_id": "CELLULOS.S7",
+      "source_node_type": "equipment",
+      "source_node_id": "V-101",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-102",
+      "source_xml_path": "/Plant/StreamMaterial[19]",
+      "sheet_ids": [
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-020",
+      "aspen_stream_id": "CELLULOS.SOLID3",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-101",
+      "target_node_type": "equipment",
+      "target_node_id": "E-104",
+      "source_xml_path": "/Plant/StreamMaterial[20]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-021",
+      "aspen_stream_id": "CELLULOS.TOWASHH2",
+      "source_node_type": "equipment",
+      "source_node_id": "P-102",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-101",
+      "source_xml_path": "/Plant/StreamMaterial[21]",
+      "sheet_ids": [
+        "PFD-108",
+        "PFD-111"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-022",
+      "aspen_stream_id": "CELLULOS.TOWASHWA",
+      "source_node_type": "equipment",
+      "source_node_id": "R-102",
+      "target_node_type": "equipment",
+      "target_node_id": "P-103",
+      "source_xml_path": "/Plant/StreamMaterial[22]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-023",
+      "aspen_stream_id": "CELLULOS.WASHING",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-101",
+      "target_node_type": "equipment",
+      "target_node_id": "P-101",
+      "source_xml_path": "/Plant/StreamMaterial[23]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-024",
+      "aspen_stream_id": "CELLULOS.WATER1",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "R-102",
+      "source_xml_path": "/Plant/StreamMaterial[24]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-025",
+      "aspen_stream_id": "DEPOLY.ATMETOH",
+      "source_node_type": "equipment",
+      "source_node_id": "P-111",
+      "target_node_type": "equipment",
+      "target_node_id": "M-104",
+      "source_xml_path": "/Plant/StreamMaterial[25]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-026",
+      "aspen_stream_id": "DEPOLY.ATMTOFLO",
+      "source_node_type": "equipment",
+      "source_node_id": "P-104",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-108",
+      "source_xml_path": "/Plant/StreamMaterial[26]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-027",
+      "aspen_stream_id": "DEPOLY.DIST1B",
+      "source_node_type": "equipment",
+      "source_node_id": "T-102",
+      "target_node_type": "equipment",
+      "target_node_id": "P-106",
+      "source_xml_path": "/Plant/StreamMaterial[27]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-028",
+      "aspen_stream_id": "DEPOLY.DIST1T",
+      "source_node_type": "equipment",
+      "source_node_id": "T-102",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-104",
+      "source_xml_path": "/Plant/StreamMaterial[28]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-029",
+      "aspen_stream_id": "DEPOLY.DIST2B",
+      "source_node_type": "equipment",
+      "source_node_id": "T-103",
+      "target_node_type": "equipment",
+      "target_node_id": "P-109",
+      "source_xml_path": "/Plant/StreamMaterial[29]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-030",
+      "aspen_stream_id": "DEPOLY.DIST3B",
+      "source_node_type": "equipment",
+      "source_node_id": "T-101",
+      "target_node_type": "equipment",
+      "target_node_id": "M-106",
+      "source_xml_path": "/Plant/StreamMaterial[30]",
+      "sheet_ids": [
+        "PFD-103",
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-031",
+      "aspen_stream_id": "DEPOLY.DIST3T",
+      "source_node_type": "equipment",
+      "source_node_id": "T-101",
+      "target_node_type": "equipment",
+      "target_node_id": "P-107",
+      "source_xml_path": "/Plant/StreamMaterial[31]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-032",
+      "aspen_stream_id": "DEPOLY.ETHANOL",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-106",
+      "target_node_type": "equipment",
+      "target_node_id": "M-104",
+      "source_xml_path": "/Plant/StreamMaterial[32]",
+      "sheet_ids": [
+        "PFD-104",
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-033",
+      "aspen_stream_id": "DEPOLY.ETOH",
+      "source_node_type": "equipment",
+      "source_node_id": "T-103",
+      "target_node_type": "equipment",
+      "target_node_id": "P-111",
+      "source_xml_path": "/Plant/StreamMaterial[33]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-034",
+      "aspen_stream_id": "DEPOLY.ETOHMAKE",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-105",
+      "source_xml_path": "/Plant/StreamMaterial[34]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-035",
+      "aspen_stream_id": "DEPOLY.ETOHMON",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-107",
+      "target_node_type": "equipment",
+      "target_node_id": "V-102",
+      "source_xml_path": "/Plant/StreamMaterial[35]",
+      "sheet_ids": [
+        "PFD-113",
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-036",
+      "aspen_stream_id": "DEPOLY.ETOHREC",
+      "source_node_type": "equipment",
+      "source_node_id": "M-105",
+      "target_node_type": "equipment",
+      "target_node_id": "M-107",
+      "source_xml_path": "/Plant/StreamMaterial[36]",
+      "sheet_ids": [
+        "PFD-104",
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-037",
+      "aspen_stream_id": "DEPOLY.H2MAKE",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-103",
+      "source_xml_path": "/Plant/StreamMaterial[37]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-038",
+      "aspen_stream_id": "DEPOLY.H2REC",
+      "source_node_type": "equipment",
+      "source_node_id": "E-118",
+      "target_node_type": "equipment",
+      "target_node_id": "C-103",
+      "source_xml_path": "/Plant/StreamMaterial[38]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-039",
+      "aspen_stream_id": "DEPOLY.H2RESIDU",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-108",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[39]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-040",
+      "aspen_stream_id": "DEPOLY.HIGHPH2",
+      "source_node_type": "equipment",
+      "source_node_id": "C-103",
+      "target_node_type": "equipment",
+      "target_node_id": "M-107",
+      "source_xml_path": "/Plant/StreamMaterial[40]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-041",
+      "aspen_stream_id": "DEPOLY.HOLIGOS",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-109",
+      "target_node_type": "equipment",
+      "target_node_id": "E-117",
+      "source_xml_path": "/Plant/StreamMaterial[41]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-042",
+      "aspen_stream_id": "DEPOLY.HOTPG",
+      "source_node_type": "equipment",
+      "source_node_id": "P-109",
+      "target_node_type": "equipment",
+      "target_node_id": "E-116",
+      "source_xml_path": "/Plant/StreamMaterial[42]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-043",
+      "aspen_stream_id": "DEPOLY.HOTPS",
+      "source_node_type": "equipment",
+      "source_node_id": "P-107",
+      "target_node_type": "equipment",
+      "target_node_id": "E-114",
+      "source_xml_path": "/Plant/StreamMaterial[43]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-044",
+      "aspen_stream_id": "DEPOLY.HOTPSOH",
+      "source_node_type": "equipment",
+      "source_node_id": "P-108",
+      "target_node_type": "equipment",
+      "target_node_id": "E-111",
+      "source_xml_path": "/Plant/StreamMaterial[44]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-045",
+      "aspen_stream_id": "DEPOLY.HYDRO",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-107",
+      "target_node_type": "junction",
+      "target_node_id": "J-002",
+      "source_xml_path": "/Plant/StreamMaterial[45]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-046",
+      "aspen_stream_id": "DEPOLY.LIGOIL",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-106",
+      "target_node_type": "equipment",
+      "target_node_id": "P-104",
+      "source_xml_path": "/Plant/StreamMaterial[46]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-047",
+      "aspen_stream_id": "DEPOLY.LIQ",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-103",
+      "target_node_type": "equipment",
+      "target_node_id": "P-105",
+      "source_xml_path": "/Plant/StreamMaterial[47]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-048",
+      "aspen_stream_id": "DEPOLY.LIQ2",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-104",
+      "target_node_type": "equipment",
+      "target_node_id": "P-110",
+      "source_xml_path": "/Plant/StreamMaterial[48]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-049",
+      "aspen_stream_id": "DEPOLY.MIXETHOH",
+      "source_node_type": "equipment",
+      "source_node_id": "M-104",
+      "target_node_type": "equipment",
+      "target_node_id": "E-115",
+      "source_xml_path": "/Plant/StreamMaterial[49]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-050",
+      "aspen_stream_id": "DEPOLY.MONO",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-109",
+      "target_node_type": "equipment",
+      "target_node_id": "E-109",
+      "source_xml_path": "/Plant/StreamMaterial[50]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-051",
+      "aspen_stream_id": "DEPOLY.MONOCOOL",
+      "source_node_type": "equipment",
+      "source_node_id": "E-112",
+      "target_node_type": "equipment",
+      "target_node_id": "P-105",
+      "source_xml_path": "/Plant/StreamMaterial[51]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-052",
+      "aspen_stream_id": "DEPOLY.NOH2",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-108",
+      "target_node_type": "equipment",
+      "target_node_id": "V-103",
+      "source_xml_path": "/Plant/StreamMaterial[52]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-053",
+      "aspen_stream_id": "DEPOLY.PROD1",
+      "source_node_type": "equipment",
+      "source_node_id": "R-103",
+      "target_node_type": "equipment",
+      "target_node_id": "E-107",
+      "source_xml_path": "/Plant/StreamMaterial[53]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-054",
+      "aspen_stream_id": "DEPOLY.PSOH",
+      "source_node_type": "equipment",
+      "source_node_id": "E-111",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[54]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-055",
+      "aspen_stream_id": "DEPOLY.PURGEH2",
+      "source_node_type": "junction",
+      "source_node_id": "J-002",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[55]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-056",
+      "aspen_stream_id": "DEPOLY.RECYET",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-105",
+      "target_node_type": "junction",
+      "target_node_id": "J-003",
+      "source_xml_path": "/Plant/StreamMaterial[56]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-057",
+      "aspen_stream_id": "DEPOLY.RECYETO",
+      "source_node_type": "equipment",
+      "source_node_id": "E-113",
+      "target_node_type": "equipment",
+      "target_node_id": "M-105",
+      "source_xml_path": "/Plant/StreamMaterial[57]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-058",
+      "aspen_stream_id": "DEPOLY.RECYH2",
+      "source_node_type": "junction",
+      "source_node_id": "J-002",
+      "target_node_type": "equipment",
+      "target_node_id": "M-103",
+      "source_xml_path": "/Plant/StreamMaterial[58]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-059",
+      "aspen_stream_id": "DEPOLY.S1",
+      "source_node_type": "equipment",
+      "source_node_id": "E-106",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-106",
+      "source_xml_path": "/Plant/StreamMaterial[59]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-060",
+      "aspen_stream_id": "DEPOLY.TOCOOL10",
+      "source_node_type": "equipment",
+      "source_node_id": "P-106",
+      "target_node_type": "equipment",
+      "target_node_id": "E-108",
+      "source_xml_path": "/Plant/StreamMaterial[60]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-061",
+      "aspen_stream_id": "DEPOLY.TOCOOL12",
+      "source_node_type": "equipment",
+      "source_node_id": "C-105",
+      "target_node_type": "equipment",
+      "target_node_id": "E-110",
+      "source_xml_path": "/Plant/StreamMaterial[61]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-062",
+      "aspen_stream_id": "DEPOLY.TOCOOL2",
+      "source_node_type": "equipment",
+      "source_node_id": "C-104",
+      "target_node_type": "equipment",
+      "target_node_id": "E-112",
+      "source_xml_path": "/Plant/StreamMaterial[62]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-063",
+      "aspen_stream_id": "DEPOLY.TOCOOL3",
+      "source_node_type": "junction",
+      "source_node_id": "J-003",
+      "target_node_type": "equipment",
+      "target_node_id": "E-113",
+      "source_xml_path": "/Plant/StreamMaterial[63]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-064",
+      "aspen_stream_id": "DEPOLY.TODIST1",
+      "source_node_type": "equipment",
+      "source_node_id": "P-105",
+      "target_node_type": "equipment",
+      "target_node_id": "T-102",
+      "source_xml_path": "/Plant/StreamMaterial[64]",
+      "sheet_ids": [
+        "PFD-114",
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-065",
+      "aspen_stream_id": "DEPOLY.TODISTPG",
+      "source_node_type": "equipment",
+      "source_node_id": "P-110",
+      "target_node_type": "equipment",
+      "target_node_id": "T-103",
+      "source_xml_path": "/Plant/StreamMaterial[65]",
+      "sheet_ids": [
+        "PFD-104",
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-066",
+      "aspen_stream_id": "DEPOLY.TODISTPS",
+      "source_node_type": "equipment",
+      "source_node_id": "E-108",
+      "target_node_type": "equipment",
+      "target_node_id": "T-101",
+      "source_xml_path": "/Plant/StreamMaterial[66]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-067",
+      "aspen_stream_id": "DEPOLY.TODRUM",
+      "source_node_type": "equipment",
+      "source_node_id": "E-109",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-103",
+      "source_xml_path": "/Plant/StreamMaterial[67]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-068",
+      "aspen_stream_id": "DEPOLY.TOFLETHY",
+      "source_node_type": "equipment",
+      "source_node_id": "E-115",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-105",
+      "source_xml_path": "/Plant/StreamMaterial[68]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-069",
+      "aspen_stream_id": "DEPOLY.TOFLETOH",
+      "source_node_type": "equipment",
+      "source_node_id": "V-102",
+      "target_node_type": "equipment",
+      "target_node_id": "E-106",
+      "source_xml_path": "/Plant/StreamMaterial[69]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-070",
+      "aspen_stream_id": "DEPOLY.TOFLH2",
+      "source_node_type": "equipment",
+      "source_node_id": "E-107",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-107",
+      "source_xml_path": "/Plant/StreamMaterial[70]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-071",
+      "aspen_stream_id": "DEPOLY.TOFLOLIG",
+      "source_node_type": "equipment",
+      "source_node_id": "V-103",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-109",
+      "source_xml_path": "/Plant/StreamMaterial[71]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-072",
+      "aspen_stream_id": "DEPOLY.TOHEAT1",
+      "source_node_type": "equipment",
+      "source_node_id": "M-103",
+      "target_node_type": "equipment",
+      "target_node_id": "E-118",
+      "source_xml_path": "/Plant/StreamMaterial[72]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-073",
+      "aspen_stream_id": "DEPOLY.TOPUMP7",
+      "source_node_type": "equipment",
+      "source_node_id": "E-110",
+      "target_node_type": "equipment",
+      "target_node_id": "P-110",
+      "source_xml_path": "/Plant/StreamMaterial[73]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-074",
+      "aspen_stream_id": "DEPOLY.TOREACT1",
+      "source_node_type": "equipment",
+      "source_node_id": "M-107",
+      "target_node_type": "equipment",
+      "target_node_id": "R-103",
+      "source_xml_path": "/Plant/StreamMaterial[74]",
+      "sheet_ids": [
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-075",
+      "aspen_stream_id": "DEPOLY.VACPSOH",
+      "source_node_type": "equipment",
+      "source_node_id": "M-106",
+      "target_node_type": "equipment",
+      "target_node_id": "P-108",
+      "source_xml_path": "/Plant/StreamMaterial[75]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-076",
+      "aspen_stream_id": "DEPOLY.VAP",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-103",
+      "target_node_type": "equipment",
+      "target_node_id": "C-104",
+      "source_xml_path": "/Plant/StreamMaterial[76]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-077",
+      "aspen_stream_id": "DEPOLY.VAP2",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-104",
+      "target_node_type": "equipment",
+      "target_node_id": "C-105",
+      "source_xml_path": "/Plant/StreamMaterial[77]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-078",
+      "aspen_stream_id": "DMGX.AFTERFIL",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-103",
+      "target_node_type": "equipment",
+      "target_node_id": "P-126",
+      "source_xml_path": "/Plant/StreamMaterial[78]",
+      "sheet_ids": [
+        "PFD-105",
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-079",
+      "aspen_stream_id": "DMGX.ATMH2O",
+      "source_node_type": "equipment",
+      "source_node_id": "P-113",
+      "target_node_type": "junction",
+      "target_node_id": "J-006",
+      "source_xml_path": "/Plant/StreamMaterial[79]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-080",
+      "aspen_stream_id": "DMGX.BOT1",
+      "source_node_type": "equipment",
+      "source_node_id": "T-104",
+      "target_node_type": "equipment",
+      "target_node_id": "V-106",
+      "source_xml_path": "/Plant/StreamMaterial[80]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-081",
+      "aspen_stream_id": "DMGX.BOT2",
+      "source_node_type": "equipment",
+      "source_node_id": "T-105",
+      "target_node_type": "equipment",
+      "target_node_id": "P-120",
+      "source_xml_path": "/Plant/StreamMaterial[81]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-082",
+      "aspen_stream_id": "DMGX.BOTFL1",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-110",
+      "target_node_type": "equipment",
+      "target_node_id": "M-110",
+      "source_xml_path": "/Plant/StreamMaterial[82]",
+      "sheet_ids": [
+        "PFD-107",
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-083",
+      "aspen_stream_id": "DMGX.CRYSTAL",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-102",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-104",
+      "source_xml_path": "/Plant/StreamMaterial[83]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-084",
+      "aspen_stream_id": "DMGX.DMGXRICH",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-112",
+      "target_node_type": "equipment",
+      "target_node_id": "E-122",
+      "source_xml_path": "/Plant/StreamMaterial[84]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-085",
+      "aspen_stream_id": "DMGX.ETOHMAKE",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-111",
+      "source_xml_path": "/Plant/StreamMaterial[85]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-086",
+      "aspen_stream_id": "DMGX.ETOHPURG",
+      "source_node_type": "junction",
+      "source_node_id": "J-004",
+      "target_node_type": "equipment",
+      "target_node_id": "E-127",
+      "source_xml_path": "/Plant/StreamMaterial[86]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-087",
+      "aspen_stream_id": "DMGX.ETOHREC",
+      "source_node_type": "equipment",
+      "source_node_id": "E-125",
+      "target_node_type": "equipment",
+      "target_node_id": "E-124",
+      "source_xml_path": "/Plant/StreamMaterial[87]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-088",
+      "aspen_stream_id": "DMGX.FEED",
+      "source_node_type": "equipment",
+      "source_node_id": "V-105",
+      "target_node_type": "equipment",
+      "target_node_id": "R-104",
+      "source_xml_path": "/Plant/StreamMaterial[88]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-089",
+      "aspen_stream_id": "DMGX.FEED2",
+      "source_node_type": "equipment",
+      "source_node_id": "P-123",
+      "target_node_type": "equipment",
+      "target_node_id": "R-105",
+      "source_xml_path": "/Plant/StreamMaterial[89]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-090",
+      "aspen_stream_id": "DMGX.FEED3",
+      "source_node_type": "equipment",
+      "source_node_id": "P-124",
+      "target_node_type": "equipment",
+      "target_node_id": "R-106",
+      "source_xml_path": "/Plant/StreamMaterial[90]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-091",
+      "aspen_stream_id": "DMGX.GAMAKE",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-115",
+      "source_xml_path": "/Plant/StreamMaterial[91]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-092",
+      "aspen_stream_id": "DMGX.GAREC",
+      "source_node_type": "equipment",
+      "source_node_id": "P-120",
+      "target_node_type": "equipment",
+      "target_node_id": "M-115",
+      "source_xml_path": "/Plant/StreamMaterial[92]",
+      "sheet_ids": [
+        "PFD-101",
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-093",
+      "aspen_stream_id": "DMGX.H2OVAP",
+      "source_node_type": "equipment",
+      "source_node_id": "R-104",
+      "target_node_type": "equipment",
+      "target_node_id": "E-120",
+      "source_xml_path": "/Plant/StreamMaterial[93]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-094",
+      "aspen_stream_id": "DMGX.H2SO4",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-108",
+      "source_xml_path": "/Plant/StreamMaterial[94]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-095",
+      "aspen_stream_id": "DMGX.HCRYSDMG",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-104",
+      "target_node_type": "equipment",
+      "target_node_id": "E-126",
+      "source_xml_path": "/Plant/StreamMaterial[95]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-096",
+      "aspen_stream_id": "DMGX.LIQ1",
+      "source_node_type": "equipment",
+      "source_node_id": "T-106",
+      "target_node_type": "equipment",
+      "target_node_id": "P-121",
+      "source_xml_path": "/Plant/StreamMaterial[96]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-097",
+      "aspen_stream_id": "DMGX.LIQ2",
+      "source_node_type": "equipment",
+      "source_node_id": "P-121",
+      "target_node_type": "equipment",
+      "target_node_id": "M-108",
+      "source_xml_path": "/Plant/StreamMaterial[97]",
+      "sheet_ids": [
+        "PFD-101",
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-098",
+      "aspen_stream_id": "DMGX.LIQUID",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-104",
+      "target_node_type": "junction",
+      "target_node_id": "J-004",
+      "source_xml_path": "/Plant/StreamMaterial[98]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-099",
+      "aspen_stream_id": "DMGX.MEOHMAKE",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-114",
+      "source_xml_path": "/Plant/StreamMaterial[99]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-100",
+      "aspen_stream_id": "DMGX.MEOHREC",
+      "source_node_type": "junction",
+      "source_node_id": "J-005",
+      "target_node_type": "equipment",
+      "target_node_id": "M-114",
+      "source_xml_path": "/Plant/StreamMaterial[100]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-101",
+      "aspen_stream_id": "DMGX.NA2SO4",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-103",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[101]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-102",
+      "aspen_stream_id": "DMGX.NAOH",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "R-106",
+      "source_xml_path": "/Plant/StreamMaterial[102]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-103",
+      "aspen_stream_id": "DMGX.PROD",
+      "source_node_type": "equipment",
+      "source_node_id": "R-104",
+      "target_node_type": "equipment",
+      "target_node_id": "P-122",
+      "source_xml_path": "/Plant/StreamMaterial[103]",
+      "sheet_ids": [
+        "PFD-101",
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-104",
+      "aspen_stream_id": "DMGX.PROD2",
+      "source_node_type": "equipment",
+      "source_node_id": "R-105",
+      "target_node_type": "equipment",
+      "target_node_id": "P-124",
+      "source_xml_path": "/Plant/StreamMaterial[104]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-105",
+      "aspen_stream_id": "DMGX.PROD3",
+      "source_node_type": "equipment",
+      "source_node_id": "R-106",
+      "target_node_type": "equipment",
+      "target_node_id": "P-125",
+      "source_xml_path": "/Plant/StreamMaterial[105]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-106",
+      "aspen_stream_id": "DMGX.PURGEH2O",
+      "source_node_type": "junction",
+      "source_node_id": "J-006",
+      "target_node_type": "equipment",
+      "target_node_id": "M-112",
+      "source_xml_path": "/Plant/StreamMaterial[106]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-107",
+      "aspen_stream_id": "DMGX.RECYETOH",
+      "source_node_type": "junction",
+      "source_node_id": "J-004",
+      "target_node_type": "equipment",
+      "target_node_id": "M-111",
+      "source_xml_path": "/Plant/StreamMaterial[107]",
+      "sheet_ids": [
+        "PFD-101",
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-108",
+      "aspen_stream_id": "DMGX.S1",
+      "source_node_type": "equipment",
+      "source_node_id": "E-124",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-102",
+      "source_xml_path": "/Plant/StreamMaterial[108]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-109",
+      "aspen_stream_id": "DMGX.S2",
+      "source_node_type": "equipment",
+      "source_node_id": "M-116",
+      "target_node_type": "equipment",
+      "target_node_id": "E-125",
+      "source_xml_path": "/Plant/StreamMaterial[109]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-110",
+      "aspen_stream_id": "DMGX.S3",
+      "source_node_type": "equipment",
+      "source_node_id": "T-106",
+      "target_node_type": "equipment",
+      "target_node_id": "C-106",
+      "source_xml_path": "/Plant/StreamMaterial[110]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-111",
+      "aspen_stream_id": "DMGX.SULFURIC",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-112",
+      "source_xml_path": "/Plant/StreamMaterial[111]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-112",
+      "aspen_stream_id": "DMGX.TOCOOL1",
+      "source_node_type": "equipment",
+      "source_node_id": "P-119",
+      "target_node_type": "equipment",
+      "target_node_id": "E-119",
+      "source_xml_path": "/Plant/StreamMaterial[112]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-113",
+      "aspen_stream_id": "DMGX.TOCOOL3",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-111",
+      "target_node_type": "equipment",
+      "target_node_id": "E-121",
+      "source_xml_path": "/Plant/StreamMaterial[113]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-114",
+      "aspen_stream_id": "DMGX.TOCRYS",
+      "source_node_type": "equipment",
+      "source_node_id": "P-114",
+      "target_node_type": "equipment",
+      "target_node_id": "M-116",
+      "source_xml_path": "/Plant/StreamMaterial[114]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-115",
+      "aspen_stream_id": "DMGX.TODIST",
+      "source_node_type": "equipment",
+      "source_node_id": "P-126",
+      "target_node_type": "equipment",
+      "target_node_id": "T-104",
+      "source_xml_path": "/Plant/StreamMaterial[115]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-116",
+      "aspen_stream_id": "DMGX.TODIST2",
+      "source_node_type": "equipment",
+      "source_node_id": "P-116",
+      "target_node_type": "equipment",
+      "target_node_id": "T-105",
+      "source_xml_path": "/Plant/StreamMaterial[116]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-117",
+      "aspen_stream_id": "DMGX.TODRYER1",
+      "source_node_type": "equipment",
+      "source_node_id": "V-104",
+      "target_node_type": "equipment",
+      "target_node_id": "T-106",
+      "source_xml_path": "/Plant/StreamMaterial[117]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-118",
+      "aspen_stream_id": "DMGX.TOF2",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-110",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-111",
+      "source_xml_path": "/Plant/StreamMaterial[118]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-119",
+      "aspen_stream_id": "DMGX.TOF3",
+      "source_node_type": "equipment",
+      "source_node_id": "V-107",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-112",
+      "source_xml_path": "/Plant/StreamMaterial[119]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-120",
+      "aspen_stream_id": "DMGX.TOFILTER",
+      "source_node_type": "equipment",
+      "source_node_id": "P-125",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-103",
+      "source_xml_path": "/Plant/StreamMaterial[120]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-121",
+      "aspen_stream_id": "DMGX.TOHEAT1",
+      "source_node_type": "equipment",
+      "source_node_id": "M-111",
+      "target_node_type": "equipment",
+      "target_node_id": "M-116",
+      "source_xml_path": "/Plant/StreamMaterial[121]",
+      "sheet_ids": [
+        "PFD-101",
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-122",
+      "aspen_stream_id": "DMGX.TOMIX116",
+      "source_node_type": "equipment",
+      "source_node_id": "P-118",
+      "target_node_type": "equipment",
+      "target_node_id": "M-109",
+      "source_xml_path": "/Plant/StreamMaterial[122]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-123",
+      "aspen_stream_id": "DMGX.TOMIX2",
+      "source_node_type": "equipment",
+      "source_node_id": "P-122",
+      "target_node_type": "equipment",
+      "target_node_id": "M-109",
+      "source_xml_path": "/Plant/StreamMaterial[123]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-124",
+      "aspen_stream_id": "DMGX.TOMIX5",
+      "source_node_type": "equipment",
+      "source_node_id": "P-127",
+      "target_node_type": "equipment",
+      "target_node_id": "M-112",
+      "source_xml_path": "/Plant/StreamMaterial[124]",
+      "sheet_ids": [
+        "PFD-101",
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-125",
+      "aspen_stream_id": "DMGX.TOMIXA",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-111",
+      "target_node_type": "equipment",
+      "target_node_id": "M-110",
+      "source_xml_path": "/Plant/StreamMaterial[125]",
+      "sheet_ids": [
+        "PFD-107",
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-126",
+      "aspen_stream_id": "DMGX.TOP1",
+      "source_node_type": "equipment",
+      "source_node_id": "T-104",
+      "target_node_type": "equipment",
+      "target_node_id": "M-113",
+      "source_xml_path": "/Plant/StreamMaterial[126]",
+      "sheet_ids": [
+        "PFD-105",
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-127",
+      "aspen_stream_id": "DMGX.TOP2",
+      "source_node_type": "equipment",
+      "source_node_id": "T-105",
+      "target_node_type": "equipment",
+      "target_node_id": "M-113",
+      "source_xml_path": "/Plant/StreamMaterial[127]",
+      "sheet_ids": [
+        "PFD-101",
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-128",
+      "aspen_stream_id": "DMGX.TOPF1",
+      "source_node_type": "equipment",
+      "source_node_id": "V-106",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-110",
+      "source_xml_path": "/Plant/StreamMaterial[128]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-129",
+      "aspen_stream_id": "DMGX.TOPUMP11",
+      "source_node_type": "equipment",
+      "source_node_id": "E-120",
+      "target_node_type": "equipment",
+      "target_node_id": "P-113",
+      "source_xml_path": "/Plant/StreamMaterial[129]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-130",
+      "aspen_stream_id": "DMGX.TOPUMP12",
+      "source_node_type": "equipment",
+      "source_node_id": "E-122",
+      "target_node_type": "equipment",
+      "target_node_id": "P-114",
+      "source_xml_path": "/Plant/StreamMaterial[130]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-131",
+      "aspen_stream_id": "DMGX.TOPUMP13",
+      "source_node_type": "equipment",
+      "source_node_id": "M-112",
+      "target_node_type": "equipment",
+      "target_node_id": "P-115",
+      "source_xml_path": "/Plant/StreamMaterial[131]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-132",
+      "aspen_stream_id": "DMGX.TOPUMP14",
+      "source_node_type": "equipment",
+      "source_node_id": "R-107",
+      "target_node_type": "equipment",
+      "target_node_id": "P-116",
+      "source_xml_path": "/Plant/StreamMaterial[132]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-133",
+      "aspen_stream_id": "DMGX.TOPUMP15",
+      "source_node_type": "equipment",
+      "source_node_id": "M-113",
+      "target_node_type": "equipment",
+      "target_node_id": "P-117",
+      "source_xml_path": "/Plant/StreamMaterial[133]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-134",
+      "aspen_stream_id": "DMGX.TOPUMP16",
+      "source_node_type": "equipment",
+      "source_node_id": "M-114",
+      "target_node_type": "equipment",
+      "target_node_id": "P-118",
+      "source_xml_path": "/Plant/StreamMaterial[134]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-135",
+      "aspen_stream_id": "DMGX.TOPUMP3",
+      "source_node_type": "equipment",
+      "source_node_id": "M-108",
+      "target_node_type": "equipment",
+      "target_node_id": "V-105",
+      "source_xml_path": "/Plant/StreamMaterial[135]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-136",
+      "aspen_stream_id": "DMGX.TOPUMP5",
+      "source_node_type": "equipment",
+      "source_node_id": "M-109",
+      "target_node_type": "equipment",
+      "target_node_id": "P-123",
+      "source_xml_path": "/Plant/StreamMaterial[136]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-137",
+      "aspen_stream_id": "DMGX.TOPUMP7",
+      "source_node_type": "equipment",
+      "source_node_id": "M-115",
+      "target_node_type": "equipment",
+      "target_node_id": "P-119",
+      "source_xml_path": "/Plant/StreamMaterial[137]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-138",
+      "aspen_stream_id": "DMGX.TOPUMP9",
+      "source_node_type": "equipment",
+      "source_node_id": "E-121",
+      "target_node_type": "equipment",
+      "target_node_id": "P-127",
+      "source_xml_path": "/Plant/StreamMaterial[138]",
+      "sheet_ids": [
+        "PFD-107"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-139",
+      "aspen_stream_id": "DMGX.TOPURGE2",
+      "source_node_type": "equipment",
+      "source_node_id": "P-117",
+      "target_node_type": "junction",
+      "target_node_id": "J-005",
+      "source_xml_path": "/Plant/StreamMaterial[139]",
+      "sheet_ids": [
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-140",
+      "aspen_stream_id": "DMGX.TOPURGE3",
+      "source_node_type": "junction",
+      "source_node_id": "J-006",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[140]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-141",
+      "aspen_stream_id": "DMGX.TOREACT4",
+      "source_node_type": "equipment",
+      "source_node_id": "P-115",
+      "target_node_type": "equipment",
+      "target_node_id": "R-107",
+      "source_xml_path": "/Plant/StreamMaterial[141]",
+      "sheet_ids": [
+        "PFD-101"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-142",
+      "aspen_stream_id": "DMGX.TOVALVE4",
+      "source_node_type": "equipment",
+      "source_node_id": "M-110",
+      "target_node_type": "equipment",
+      "target_node_id": "V-107",
+      "source_xml_path": "/Plant/StreamMaterial[142]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-143",
+      "aspen_stream_id": "DMGX.VACVAPOU",
+      "source_node_type": "equipment",
+      "source_node_id": "E-123",
+      "target_node_type": "equipment",
+      "target_node_id": "P-112",
+      "source_xml_path": "/Plant/StreamMaterial[143]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-144",
+      "aspen_stream_id": "DMGX.VAPOUR",
+      "source_node_type": "equipment",
+      "source_node_id": "C-106",
+      "target_node_type": "equipment",
+      "target_node_id": "E-123",
+      "source_xml_path": "/Plant/StreamMaterial[144]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-145",
+      "aspen_stream_id": "DMGXCRY",
+      "source_node_type": "equipment",
+      "source_node_id": "E-126",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[145]",
+      "sheet_ids": [
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-146",
+      "aspen_stream_id": "FLUEGAS",
+      "source_node_type": "equipment",
+      "source_node_id": "E-101",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[146]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-147",
+      "aspen_stream_id": "GAREC",
+      "source_node_type": "equipment",
+      "source_node_id": "E-119",
+      "target_node_type": "equipment",
+      "target_node_id": "M-118",
+      "source_xml_path": "/Plant/StreamMaterial[147]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-148",
+      "aspen_stream_id": "HEMICELL.CPURGE",
+      "source_node_type": "equipment",
+      "source_node_id": "E-129",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[148]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-149",
+      "aspen_stream_id": "HEMICELL.FRESHH2O",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-117",
+      "source_xml_path": "/Plant/StreamMaterial[149]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-150",
+      "aspen_stream_id": "HEMICELL.LIQUOR",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-106",
+      "target_node_type": "equipment",
+      "target_node_id": "P-130",
+      "source_xml_path": "/Plant/StreamMaterial[150]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-151",
+      "aspen_stream_id": "HEMICELL.PURGE",
+      "source_node_type": "junction",
+      "source_node_id": "J-007",
+      "target_node_type": "equipment",
+      "target_node_id": "E-129",
+      "source_xml_path": "/Plant/StreamMaterial[151]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-152",
+      "aspen_stream_id": "HEMICELL.RECWATER",
+      "source_node_type": "equipment",
+      "source_node_id": "E-128",
+      "target_node_type": "equipment",
+      "target_node_id": "P-129",
+      "source_xml_path": "/Plant/StreamMaterial[152]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-153",
+      "aspen_stream_id": "HEMICELL.RECYIN2",
+      "source_node_type": "junction",
+      "source_node_id": "J-007",
+      "target_node_type": "equipment",
+      "target_node_id": "M-117",
+      "source_xml_path": "/Plant/StreamMaterial[153]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-154",
+      "aspen_stream_id": "HEMICELL.S1",
+      "source_node_type": "equipment",
+      "source_node_id": "E-130",
+      "target_node_type": "equipment",
+      "target_node_id": "R-108",
+      "source_xml_path": "/Plant/StreamMaterial[154]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-155",
+      "aspen_stream_id": "HEMICELL.TOCENTRI",
+      "source_node_type": "equipment",
+      "source_node_id": "R-108",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-106",
+      "source_xml_path": "/Plant/StreamMaterial[155]",
+      "sheet_ids": [
+        "PFD-110",
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-156",
+      "aspen_stream_id": "HEMICELL.TOCOOL1",
+      "source_node_type": "equipment",
+      "source_node_id": "M-117",
+      "target_node_type": "equipment",
+      "target_node_id": "E-128",
+      "source_xml_path": "/Plant/StreamMaterial[156]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-157",
+      "aspen_stream_id": "HEMICELL.TOREACT7",
+      "source_node_type": "equipment",
+      "source_node_id": "P-128",
+      "target_node_type": "equipment",
+      "target_node_id": "E-130",
+      "source_xml_path": "/Plant/StreamMaterial[157]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-158",
+      "aspen_stream_id": "HEMICELL.WATERWAS",
+      "source_node_type": "equipment",
+      "source_node_id": "P-129",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-106",
+      "source_xml_path": "/Plant/StreamMaterial[158]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-159",
+      "aspen_stream_id": "LIGNIN",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-106",
+      "target_node_type": "equipment",
+      "target_node_id": "M-107",
+      "source_xml_path": "/Plant/StreamMaterial[159]",
+      "sheet_ids": [
+        "PFD-112",
+        "PFD-113"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-160",
+      "aspen_stream_id": "LIQUOR",
+      "source_node_type": "equipment",
+      "source_node_id": "P-132",
+      "target_node_type": "equipment",
+      "target_node_id": "P-128",
+      "source_xml_path": "/Plant/StreamMaterial[160]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-161",
+      "aspen_stream_id": "OLIGO",
+      "source_node_type": "equipment",
+      "source_node_id": "E-117",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[161]",
+      "sheet_ids": [
+        "PFD-114"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-162",
+      "aspen_stream_id": "PG",
+      "source_node_type": "equipment",
+      "source_node_id": "E-116",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[162]",
+      "sheet_ids": [
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-163",
+      "aspen_stream_id": "PRETREAT.AZEOH2O",
+      "source_node_type": "equipment",
+      "source_node_id": "T-107",
+      "target_node_type": "equipment",
+      "target_node_id": "P-139",
+      "source_xml_path": "/Plant/StreamMaterial[163]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-164",
+      "aspen_stream_id": "PRETREAT.AZEOME",
+      "source_node_type": "equipment",
+      "source_node_id": "T-107",
+      "target_node_type": "equipment",
+      "target_node_id": "P-137",
+      "source_xml_path": "/Plant/StreamMaterial[164]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-165",
+      "aspen_stream_id": "PRETREAT.COLDME",
+      "source_node_type": "equipment",
+      "source_node_id": "E-132",
+      "target_node_type": "junction",
+      "target_node_id": "J-008",
+      "source_xml_path": "/Plant/StreamMaterial[165]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-166",
+      "aspen_stream_id": "PRETREAT.COLDMIX",
+      "source_node_type": "equipment",
+      "source_node_id": "M-118",
+      "target_node_type": "equipment",
+      "target_node_id": "P-131",
+      "source_xml_path": "/Plant/StreamMaterial[166]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-167",
+      "aspen_stream_id": "PRETREAT.COLDPRE",
+      "source_node_type": "equipment",
+      "source_node_id": "E-131",
+      "target_node_type": "equipment",
+      "target_node_id": "M-120",
+      "source_xml_path": "/Plant/StreamMaterial[167]",
+      "sheet_ids": [
+        "PFD-103",
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-168",
+      "aspen_stream_id": "PRETREAT.H2SO4",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-118",
+      "source_xml_path": "/Plant/StreamMaterial[168]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-169",
+      "aspen_stream_id": "PRETREAT.HOTMIX",
+      "source_node_type": "equipment",
+      "source_node_id": "E-134",
+      "target_node_type": "equipment",
+      "target_node_id": "M-119",
+      "source_xml_path": "/Plant/StreamMaterial[169]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-170",
+      "aspen_stream_id": "PRETREAT.LIQUOR",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-113",
+      "target_node_type": "equipment",
+      "target_node_id": "M-121",
+      "source_xml_path": "/Plant/StreamMaterial[170]",
+      "sheet_ids": [
+        "PFD-106",
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-171",
+      "aspen_stream_id": "PRETREAT.LIQUOR2",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-107",
+      "target_node_type": "equipment",
+      "target_node_id": "M-121",
+      "source_xml_path": "/Plant/StreamMaterial[171]",
+      "sheet_ids": [
+        "PFD-106",
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-172",
+      "aspen_stream_id": "PRETREAT.MEFEED",
+      "source_node_type": "equipment",
+      "source_node_id": "P-138",
+      "target_node_type": "equipment",
+      "target_node_id": "M-118",
+      "source_xml_path": "/Plant/StreamMaterial[172]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-173",
+      "aspen_stream_id": "PRETREAT.MEMAKE",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-122",
+      "source_xml_path": "/Plant/StreamMaterial[173]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-174",
+      "aspen_stream_id": "PRETREAT.MERECYC",
+      "source_node_type": "equipment",
+      "source_node_id": "M-122",
+      "target_node_type": "equipment",
+      "target_node_id": "P-138",
+      "source_xml_path": "/Plant/StreamMaterial[174]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-175",
+      "aspen_stream_id": "PRETREAT.MTHFWASH",
+      "source_node_type": "junction",
+      "source_node_id": "J-008",
+      "target_node_type": "equipment",
+      "target_node_id": "P-135",
+      "source_xml_path": "/Plant/StreamMaterial[175]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-176",
+      "aspen_stream_id": "PRETREAT.NAOH",
+      "source_node_type": "boundary",
+      "source_node_id": null,
+      "target_node_type": "equipment",
+      "target_node_id": "M-120",
+      "source_xml_path": "/Plant/StreamMaterial[176]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-177",
+      "aspen_stream_id": "PRETREAT.NEUTOUT",
+      "source_node_type": "equipment",
+      "source_node_id": "R-109",
+      "target_node_type": "equipment",
+      "target_node_id": "P-134",
+      "source_xml_path": "/Plant/StreamMaterial[177]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-178",
+      "aspen_stream_id": "PRETREAT.PREFEED",
+      "source_node_type": "equipment",
+      "source_node_id": "M-119",
+      "target_node_type": "equipment",
+      "target_node_id": "R-110",
+      "source_xml_path": "/Plant/StreamMaterial[178]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-179",
+      "aspen_stream_id": "PRETREAT.PREOUT",
+      "source_node_type": "equipment",
+      "source_node_id": "R-110",
+      "target_node_type": "equipment",
+      "target_node_id": "E-131",
+      "source_xml_path": "/Plant/StreamMaterial[179]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-180",
+      "aspen_stream_id": "PRETREAT.REMETHF",
+      "source_node_type": "junction",
+      "source_node_id": "J-008",
+      "target_node_type": "equipment",
+      "target_node_id": "M-122",
+      "source_xml_path": "/Plant/StreamMaterial[180]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-181",
+      "aspen_stream_id": "PRETREAT.S1",
+      "source_node_type": "equipment",
+      "source_node_id": "P-133",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-107",
+      "source_xml_path": "/Plant/StreamMaterial[181]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-182",
+      "aspen_stream_id": "PRETREAT.SOLID",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-113",
+      "target_node_type": "equipment",
+      "target_node_id": "P-133",
+      "source_xml_path": "/Plant/StreamMaterial[182]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-183",
+      "aspen_stream_id": "PRETREAT.TOCOOL2",
+      "source_node_type": "equipment",
+      "source_node_id": "P-137",
+      "target_node_type": "equipment",
+      "target_node_id": "E-132",
+      "source_xml_path": "/Plant/StreamMaterial[183]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-184",
+      "aspen_stream_id": "PRETREAT.TOCOOL4",
+      "source_node_type": "equipment",
+      "source_node_id": "P-139",
+      "target_node_type": "equipment",
+      "target_node_id": "E-133",
+      "source_xml_path": "/Plant/StreamMaterial[184]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-185",
+      "aspen_stream_id": "PRETREAT.TODIST1",
+      "source_node_type": "equipment",
+      "source_node_id": "M-121",
+      "target_node_type": "equipment",
+      "target_node_id": "P-136",
+      "source_xml_path": "/Plant/StreamMaterial[185]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-186",
+      "aspen_stream_id": "PRETREAT.TODISTIA",
+      "source_node_type": "equipment",
+      "source_node_id": "V-108",
+      "target_node_type": "equipment",
+      "target_node_id": "T-107",
+      "source_xml_path": "/Plant/StreamMaterial[186]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-187",
+      "aspen_stream_id": "PRETREAT.TOFILTER",
+      "source_node_type": "equipment",
+      "source_node_id": "P-134",
+      "target_node_type": "equipment",
+      "target_node_id": "SEP-113",
+      "source_xml_path": "/Plant/StreamMaterial[187]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-188",
+      "aspen_stream_id": "PRETREAT.TOHEAT1",
+      "source_node_type": "equipment",
+      "source_node_id": "P-131",
+      "target_node_type": "equipment",
+      "target_node_id": "E-134",
+      "source_xml_path": "/Plant/StreamMaterial[188]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-189",
+      "aspen_stream_id": "PRETREAT.TONEUTRA",
+      "source_node_type": "equipment",
+      "source_node_id": "M-120",
+      "target_node_type": "equipment",
+      "target_node_id": "R-109",
+      "source_xml_path": "/Plant/StreamMaterial[189]",
+      "sheet_ids": [
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-190",
+      "aspen_stream_id": "PRETREAT.TOPUMP10",
+      "source_node_type": "equipment",
+      "source_node_id": "T-107",
+      "target_node_type": "equipment",
+      "target_node_id": "P-132",
+      "source_xml_path": "/Plant/StreamMaterial[190]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-191",
+      "aspen_stream_id": "PRETREAT.TOVALVE",
+      "source_node_type": "equipment",
+      "source_node_id": "P-136",
+      "target_node_type": "equipment",
+      "target_node_id": "V-108",
+      "source_xml_path": "/Plant/StreamMaterial[191]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-192",
+      "aspen_stream_id": "PRETREAT.TOWASHME",
+      "source_node_type": "equipment",
+      "source_node_id": "P-135",
+      "target_node_type": "equipment",
+      "target_node_id": "UNK-107",
+      "source_xml_path": "/Plant/StreamMaterial[192]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-106"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-193",
+      "aspen_stream_id": "PROCESS",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-105",
+      "target_node_type": "equipment",
+      "target_node_id": "M-119",
+      "source_xml_path": "/Plant/StreamMaterial[193]",
+      "sheet_ids": [
+        "PFD-103"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-194",
+      "aspen_stream_id": "PS",
+      "source_node_type": "equipment",
+      "source_node_id": "E-114",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[194]",
+      "sheet_ids": [
+        "PFD-115"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-195",
+      "aspen_stream_id": "RECYH2O",
+      "source_node_type": "equipment",
+      "source_node_id": "E-133",
+      "target_node_type": "junction",
+      "target_node_id": "J-001",
+      "source_xml_path": "/Plant/StreamMaterial[195]",
+      "sheet_ids": [
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-196",
+      "aspen_stream_id": "S1",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-101",
+      "target_node_type": "equipment",
+      "target_node_id": "M-121",
+      "source_xml_path": "/Plant/StreamMaterial[196]",
+      "sheet_ids": [
+        "PFD-108",
+        "PFD-110"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-197",
+      "aspen_stream_id": "S2",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-112",
+      "target_node_type": "equipment",
+      "target_node_id": "M-123",
+      "source_xml_path": "/Plant/StreamMaterial[197]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-109"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-198",
+      "aspen_stream_id": "S3",
+      "source_node_type": "junction",
+      "source_node_id": "J-008",
+      "target_node_type": "equipment",
+      "target_node_id": "M-123",
+      "source_xml_path": "/Plant/StreamMaterial[198]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-199",
+      "aspen_stream_id": "S4",
+      "source_node_type": "equipment",
+      "source_node_id": "SEP-105",
+      "target_node_type": "equipment",
+      "target_node_id": "M-123",
+      "source_xml_path": "/Plant/StreamMaterial[199]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-200",
+      "aspen_stream_id": "S5",
+      "source_node_type": "junction",
+      "source_node_id": "J-003",
+      "target_node_type": "equipment",
+      "target_node_id": "M-123",
+      "source_xml_path": "/Plant/StreamMaterial[200]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-104"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-201",
+      "aspen_stream_id": "S6",
+      "source_node_type": "equipment",
+      "source_node_id": "E-127",
+      "target_node_type": "equipment",
+      "target_node_id": "M-123",
+      "source_xml_path": "/Plant/StreamMaterial[201]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-202",
+      "aspen_stream_id": "S7",
+      "source_node_type": "junction",
+      "source_node_id": "J-005",
+      "target_node_type": "equipment",
+      "target_node_id": "M-123",
+      "source_xml_path": "/Plant/StreamMaterial[202]",
+      "sheet_ids": [
+        "PFD-102",
+        "PFD-105"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-203",
+      "aspen_stream_id": "SOLIDCEL",
+      "source_node_type": "equipment",
+      "source_node_id": "E-104",
+      "target_node_type": "boundary",
+      "target_node_id": null,
+      "source_xml_path": "/Plant/StreamMaterial[203]",
+      "sheet_ids": [
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-204",
+      "aspen_stream_id": "SOLIDS",
+      "source_node_type": "equipment",
+      "source_node_id": "UNK-107",
+      "target_node_type": "equipment",
+      "target_node_id": "R-102",
+      "source_xml_path": "/Plant/StreamMaterial[204]",
+      "sheet_ids": [
+        "PFD-106",
+        "PFD-108"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-205",
+      "aspen_stream_id": "WASTES",
+      "source_node_type": "equipment",
+      "source_node_id": "M-123",
+      "target_node_type": "equipment",
+      "target_node_id": "M-101",
+      "source_xml_path": "/Plant/StreamMaterial[205]",
+      "sheet_ids": [
+        "PFD-102"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-206",
+      "aspen_stream_id": "WATERREC",
+      "source_node_type": "equipment",
+      "source_node_id": "P-112",
+      "target_node_type": "junction",
+      "target_node_id": "J-007",
+      "source_xml_path": "/Plant/StreamMaterial[206]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    },
+    {
+      "stream_id": "S-207",
+      "aspen_stream_id": "XYLOSE",
+      "source_node_type": "equipment",
+      "source_node_id": "P-130",
+      "target_node_type": "equipment",
+      "target_node_id": "V-104",
+      "source_xml_path": "/Plant/StreamMaterial[207]",
+      "sheet_ids": [
+        "PFD-112"
+      ],
+      "derived_schematic_element": false
+    }
+  ]
+}

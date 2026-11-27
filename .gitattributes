@@ -1,0 +1,7 @@
+* text=auto eol=lf
+review/** -text
+*.webp binary
+*.pdf binary
+*.dwg binary
+*.dxf binary
+*.zip binary

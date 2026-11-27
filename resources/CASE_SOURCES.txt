@@ -1,0 +1,17 @@
+# 案例来源与许可
+
+代码的 Apache-2.0 许可不替代下列案例数据的原始许可。以下信息照录固定案例元数据，未替原作者增加授权。
+
+| 案例 | 名称 | 来源 | 原许可记录 | 原任务状态 |
+|---|---|---|---|---|
+| HARD_A06 | 异位催化快速热解 | https://www.nlr.gov/extranet/biorefinery/aspen-models | GNU General Public License; source page does not specify version | review_required |
+| HARD_A07 | 生物质天然气核能多联产 | https://psecommunity.org/materials/calculationfiles | Non-commercial use with citation of Scott and Adams article, as specified on source page | review_required |
+| HARD_A05 | 木材制混合醇 | https://www.nlr.gov/extranet/biorefinery/aspen-models | Public distribution with linked source-page disclaimer | blocked |
+| HARD_A02 | 生物质制乙醇全流程 | https://www.nlr.gov/extranet/biorefinery/aspen-models | Public distribution with linked source-page disclaimer | review_required |
+| HARD_ZEN_LIGNIN_FIRST_MVR | 木质素优先生物炼制：机械蒸汽再压缩 | https://zenodo.org/records/18348530 | cc-by-4.0 | review_required |
+
+
+HARD_A07 source citation (distribution page):
+James Scott and Thomas A. Adams II. Biomass-Gas-and-Nuclear-To-Liquids (BGNTL) Processes Part I: Model Development and Simulation. The Canadian Journal of Chemical Engineering, 2018.
+https://psecommunity.org/materials/calculationfiles
+Non-commercial use; preserve the source citation.

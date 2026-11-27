@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PFD · 工艺图纸审阅</title>
+  <link rel="stylesheet" href="review.css">
+  <script defer src="offline-data.js"></script>
+  <script defer src="review.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="./"><span class="brand-icon">P</span><span>PFD <b>REVIEW</b><small>工艺流程图 · 专家审阅</small></span></a>
+  <span class="local-badge"><i></i> 本地审阅</span>
+  <div class="header-actions">
+    <label class="reviewer-label">审阅人<input id="reviewer" autocomplete="name" placeholder="填写姓名或代号" aria-label="审阅人"></label>
+    <button id="import-button" class="quiet">导入意见</button>
+    <button id="export-json" class="primary" data-testid="export-json">导出意见 JSON <span id="total-notes">0</span></button>
+    <button id="export-csv" class="quiet" data-testid="export-csv">导出 CSV</button>
+    <input type="file" id="import-file" accept=".json,application/json" hidden>
+  </div>
+</header>
+<div id="fatal" class="fatal" role="alert" hidden></div>
+<div class="workspace">
+  <aside class="sidebar">
+    <div class="sidebar-heading"><span class="eyebrow">REVIEW COLLECTION</span><span id="case-count">5 个高难案例</span></div>
+    <label class="field-label" for="case-select">选择工艺案例</label>
+    <select id="case-select" data-testid="case-select" aria-label="选择工艺案例"></select>
+    <p id="case-description" class="case-description"></p>
+    <div id="case-stats" class="stats"></div>
+    <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索设备 / 流股 / Aspen 编号" autocomplete="off" data-testid="search" aria-label="搜索设备或流股"></label>
+    <div id="search-results" class="search-results" aria-live="polite" hidden></div>
+    <div class="sheet-heading"><strong>图纸目录</strong><span id="sheet-count"></span></div>
+    <div id="sheets" class="sheet-list" data-testid="sheet-list"></div>
+    <div class="sidebar-foot">意见保存在当前浏览器。<br>审阅后请导出 JSON 备份或交回。</div>
+  </aside>
+  <main class="drawing-pane">
+    <div class="drawing-heading"><div><span id="case-id" class="eyebrow"></span><h1 id="case-title">载入案例…</h1></div><button id="info-button" class="quiet">案例说明与下载</button></div>
+    <div class="drawing-toolbar">
+      <div class="page-navigation"><button id="previous-sheet" title="上一页" aria-label="上一页">‹</button><strong id="sheet-title">—</strong><button id="next-sheet" title="下一页" aria-label="下一页">›</button><span id="sheet-position"></span></div>
+      <div class="tool-group"><button id="pan-mode" class="active" title="拖动平移" aria-pressed="true">移动</button><button id="region-mode" title="在图纸上拖动框选区域" data-testid="region-mode" aria-pressed="false">框选标注</button><button id="fit" title="适应整页（0）">适应</button><button id="focus" title="聚焦所选对象（F）">聚焦</button></div>
+      <div class="zoom-control"><button id="zoom-out" aria-label="缩小">−</button><span id="zoom-label">100%</span><button id="zoom-in" aria-label="放大">＋</button></div>
+    </div>
+    <div id="canvas-wrap" class="canvas-wrap" data-testid="canvas-wrap">
+      <svg id="drawing" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="原生工艺图纸，支持缩放、设备选择与框选标注" tabindex="0" data-testid="drawing"></svg>
+      <div id="loading" class="loading"><span class="spinner"></span><span id="loading-text">正在载入图纸</span></div>
+      <div class="canvas-help" id="canvas-help">滚轮缩放 · 拖动平移 · 点击设备或流股查看详情</div>
+    </div>
+    <div class="drawing-status"><span><i class="dot"></i>AutoCAD 原生图纸预览</span><span id="selection-summary">未选择对象</span><span id="save-state" aria-live="polite">意见自动保存于本机浏览器</span></div>
+  </main>
+  <aside class="inspector">
+    <nav class="inspector-tabs" aria-label="审阅面板"><button id="tab-object" class="active" aria-selected="true">对象与追踪</button><button id="tab-notes" aria-selected="false">审阅意见 <span id="case-notes-count">0</span></button></nav>
+    <section id="object-panel"><div id="object-detail" class="object-detail"><div class="empty-state"><span class="empty-icon">⌖</span><strong>从图纸开始审阅</strong><p>点击设备查看关联流股，点击流股追踪源端、目标端及跨页位置。</p></div></div></section>
+    <section id="notes-panel" hidden>
+      <div class="notes-tools"><select id="note-filter" aria-label="筛选意见"><option value="case">当前案例全部意见</option><option value="sheet">仅当前图纸</option><option value="open">未处理意见</option><option value="resolved">已处理意见</option></select><button id="new-note" class="quiet">新增</button></div>
+      <div id="notes-list" class="notes-list"></div>
+    </section>
+    <section id="note-editor" class="note-editor" hidden>
+      <div class="editor-heading"><strong id="editor-title">新增审阅意见</strong><button id="cancel-note" class="icon-button" aria-label="关闭意见编辑">×</button></div>
+      <p id="note-context" class="note-context"></p>
+      <div class="editor-grid"><label>问题类别<select id="note-category"><option value="grouping">工艺分组</option><option value="flow">流程表达</option><option value="connection">连接正确性</option><option value="readability">图面可读性</option><option value="other">其他建议</option></select></label><label>影响程度<select id="note-severity"><option value="suggestion">改进建议</option><option value="problem">需要修改</option><option value="critical">关键问题</option></select></label></div>
+      <label class="comment-label" for="note-comment">问题说明与修改建议</label><textarea id="note-comment" rows="5" placeholder="例如：这组换热器与塔属于同一流程，建议放在同页；请说明涉及的设备或流股。" data-testid="note-comment"></textarea>
+      <label class="status-label">处理状态<select id="note-status"><option value="open">待处理</option><option value="resolved">已处理</option></select></label>
+      <button id="save-note" class="primary save-note" data-testid="save-note">保存意见</button>
+      <p id="editor-dirty" class="editor-dirty" hidden>尚有未保存的意见。</p>
+    </section>
+  </aside>
+</div>
+<dialog id="info-dialog"><div class="dialog-head"><h2>案例说明与原始文件</h2><button id="close-info" class="icon-button" aria-label="关闭案例说明">×</button></div><div id="info-content"></div></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

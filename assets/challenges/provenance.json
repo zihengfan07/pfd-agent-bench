@@ -1,0 +1,87 @@
+{
+  "schema": "pfd-website-challenge-figures.v1",
+  "case": "HARD_A06",
+  "source_case_sha256": "67cc1113b12476f93500e4a90589e88d939bea02ccd7f04eeede00e24d3ef791",
+  "sources": {
+    "review/data/cases/HARD_A06/previews/PFD-101.thumb.webp": "f37c5e3ab549506472ad717eec05b8716877473fe6172ee4424e2dbbfdf98a5e",
+    "review/data/cases/HARD_A06/previews/PFD-102.thumb.webp": "2c8d65ad45b903367995cc403d922c3bf99336bfe8aa219c7777afc15020a84b",
+    "review/data/cases/HARD_A06/previews/PFD-103.thumb.webp": "7b733f334b770e4024305912ff47573b83d4cc486437f03ddb9e8e3170aa1aea",
+    "review/data/cases/HARD_A06/previews/PFD-104.thumb.webp": "58bd15e7d3b8c6f134090cb3f9ca4f2c599faa3758fd6bcd6d99f9e8731cd633",
+    "review/data/cases/HARD_A06/previews/PFD-105.thumb.webp": "d3cdf0ae08a30147c04b8cca0e792af227ea591d3423ecca71030f9369c954f7",
+    "review/data/cases/HARD_A06/previews/PFD-106.thumb.webp": "8891087f3b15ae95bfae5de3a624c7626129d2b4803a2fac5a16b88629b06d0b",
+    "review/data/cases/HARD_A06/previews/PFD-107.thumb.webp": "152650b34c5193df24a4f93cb9c5a867fab696e9d587ac63df9e5c84c50ec5d3",
+    "review/data/cases/HARD_A06/previews/PFD-108.thumb.webp": "b8f83a560c9ac456cf34f2f43fcae2f8528ce6c76f4fcc65c94a63a1c7414cbd",
+    "review/data/cases/HARD_A06/previews/PFD-109.thumb.webp": "6998e92af3f26d24f2d3b8d3968f561fc7887f85353421c59cc8ce3fa612b35b",
+    "review/data/cases/HARD_A06/previews/PFD-110.thumb.webp": "f5c55924c8e71caa684e1c939ed29269935582b2ee491c0a522ca1d783682af4",
+    "review/data/cases/HARD_A06/previews/PFD-111.thumb.webp": "d1bcd2ab153d13a6c71b58345a448c6fcfbec5e03cb6f86be003302de6f4df5d",
+    "review/data/cases/HARD_A06/previews/PFD-112.thumb.webp": "327ec261b1ae9b359ed9b150670635b35498198350d30805dea7e3a4bec84817",
+    "review/data/cases/HARD_A06/previews/PFD-113.thumb.webp": "160b2118f22f6de5d285f22a56d22907cdce9c5f3939535176b38e7213a636ee",
+    "review/data/cases/HARD_A06/previews/PFD-114.thumb.webp": "0e6b8530e1f1c2cd05c58d28bd0b5c7c2d08e8c52ac90579c76d74b3475ad0b8",
+    "review/data/cases/HARD_A06/previews/PFD-115.thumb.webp": "5ff47bce3f958d2d76ff601e32abce9b925017edd495541723256df22287ecb2",
+    "review/data/cases/HARD_A06/previews/PFD-116.thumb.webp": "54d4866e11d679cb045d72201aebaf01dda17ad6d941fc3d708255b662182fac",
+    "review/data/cases/HARD_A06/previews/PFD-117.thumb.webp": "917b7cd55ce2ae61949388d97311c4645b3e0eb43ca5a1240d1a867dc52b020a",
+    "review/data/cases/HARD_A06/previews/PFD-118.thumb.webp": "f984e17d9bc1e65c165fcc48de2801ca2eff9d166bffd479a410d96747e2c03b",
+    "review/data/cases/HARD_A06/previews/PFD-119.thumb.webp": "332d653568fcbb724f6030b8aca42a00dd00fe81cb67f15df462f876c72021c4",
+    "review/data/cases/HARD_A06/previews/PFD-120.thumb.webp": "0743d257aa537111374b9b56effc34623fe9b65e1de06e70c13b6d153c8aff63",
+    "review/data/cases/HARD_A06/previews/PFD-121.thumb.webp": "4b8e2d2c5b580293d4ca7db26abb85bd27d9c830458868fa5e4b7df714dcbc2e",
+    "review/data/cases/HARD_A06/previews/PFD-122.thumb.webp": "0276ec512c23cc9522f4c0d4ce8a9570a203849aff9363c0b45e614041e200d4",
+    "review/data/cases/HARD_A06/previews/PFD-123.thumb.webp": "46373c3aebf4a14c2697b6234320a24a3b2a06afca1471bc8cf9272146360d75",
+    "review/data/cases/HARD_A06/previews/PFD-124.thumb.webp": "60f9b18774830605cc07dea4ee82620eab4f4528105b80ddd47b0f90fddbd4ff",
+    "review/data/cases/HARD_A06/previews/PFD-125.thumb.webp": "3dd0699d719ac0cd87c2abdc362b710929f13bf6c04096a1c615073c12b72c20",
+    "review/data/cases/HARD_A06/previews/PFD-126.thumb.webp": "a0d674003f50730d9b730c847975fa8537201a060b5d608bf9cac9cdce8ae572",
+    "review/data/cases/HARD_A06/previews/PFD-127.thumb.webp": "2accfeea19e037c59a06392aab50a5d8af083fcfd57f219c170ebe0c53c18e44",
+    "review/data/cases/HARD_A06/previews/PFD-128.thumb.webp": "6e0b831a782068d790fa58e5b055c6c8df872c2a073e755b044a0f8920373245",
+    "review/data/cases/HARD_A06/previews/PFD-129.thumb.webp": "d0e6cf570c18832bf8996b0062e8bd698a8157ff7331ddd2dc4941cfd1dd395b",
+    "review/data/cases/HARD_A06/previews/PFD-130.thumb.webp": "03c8e455b7dfd08eea7bda51b1f90af2e4d33d13cbe80c3191eb8146183dc397",
+    "review/data/cases/HARD_A06/previews/PFD-131.thumb.webp": "a29d21f3715d0ae7b95993ca804ccc919662e0c91297776cea20dbb8ed172d84",
+    "review/data/cases/HARD_A06/previews/PFD-132.thumb.webp": "5b5937f383bcecbafe512e20fbc832f14689a240f7d3bcab4c2b9f2cd2adaf91",
+    "review/data/cases/HARD_A06/previews/PFD-133.thumb.webp": "c2057c99337e46c4605a6686ece79fc0aec5f8bf43f6fa5f028eb675a1b8a6c4",
+    "review/data/cases/HARD_A06/previews/PFD-134.thumb.webp": "0c5733125ccab989173b7feccd4b13df4d398698d1ee649cd7d31a8d4969a8b9",
+    "review/data/cases/HARD_A06/previews/PFD-120.webp": "ae3939c5194dfd0de42291c39e8357fac960b6028847f9e160581b08c65913d0",
+    "review/data/cases/HARD_A06/previews/PFD-102.webp": "06fcd5b67e93fb0995ef8007c45cb22e2dc8309cb6fa31ce0343e4ff3f8a8e22"
+  },
+  "counts": {
+    "equipment": 445,
+    "streams": 656,
+    "sheets": 34
+  },
+  "network": {
+    "vertices_including_junctions": 458,
+    "internal_edges_after_DiGraph_coalescing": 481,
+    "largest_scc_nodes": 46,
+    "layout_seed": 17
+  },
+  "cycle_nodes": [
+    "J-002",
+    "J-003",
+    "E-145",
+    "T-102",
+    "UNK-115",
+    "P-104"
+  ],
+  "cycle_streams": [
+    "S-199",
+    "S-200",
+    "S-201",
+    "S-196",
+    "S-197",
+    "S-198"
+  ],
+  "interface": {
+    "stream": "S-117",
+    "source": "R-112",
+    "source_sheet": "PFD-120",
+    "target": "M-117",
+    "target_sheet": "PFD-102",
+    "target_port": "upper_inlet"
+  },
+  "interpretation": "Source-index and layout-metadata illustration; original previews are embedded unchanged. Not independent Bench extraction, engineering approval, or a new score.",
+  "outputs": [
+    "cycle-en.svg",
+    "cycle-zh.svg",
+    "interfaces-en.svg",
+    "interfaces-zh.svg",
+    "scale-en.svg",
+    "scale-zh.svg"
+  ]
+}
